@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/pagemnu.xsd">
+	<import>
+		<acpmenuitem name="poi.acp.menu.link.poi">
+			<parent>wcf.acp.menu.link.application</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.category.list">
+			<controller>poi\acp\page\CategoryListPage</controller>
+			<parent>poi.acp.menu.link.poi</parent>
+			<permissions>admin.poi.canManageCategory</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.category.add">
+			<controller>poi\acp\form\CategoryAddForm</controller>
+			<parent>poi.acp.menu.link.poi.category.list</parent>
+			<permissions>admin.poi.canManageCategory</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.marker.list">
+			<controller>poi\acp\page\MarkerList</controller>
+			<parent>poi.acp.menu.link.poi</parent>
+			<permissions>admin.poi.canManageCategory</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.marker.add">
+			<controller>poi\acp\form\MarkerAddForm</controller>
+			<parent>poi.acp.menu.link.poi.marker.list</parent>
+			<permissions>admin.poi.canManageCategory</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.option.list">
+			<controller>poi\acp\page\OptionListPage</controller>
+			<parent>poi.acp.menu.link.poi</parent>
+			<permissions>admin.poi.canManageOption</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="poi.acp.menu.link.poi.option.add">
+			<controller>poi\acp\page\OptionAddForm</controller>
+			<parent>poi.acp.menu.link.poi.option.list</parent>
+			<permissions>admin.poi.canManageOption</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+	</import>
+</data>

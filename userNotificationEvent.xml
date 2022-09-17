@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userNotificationEvent.xsd">
+	<import>
+		<event>
+			<name>comment</name>
+			<objecttype>com.uz.poi.poiComment.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCommentUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		<event>
+			<name>commentResponse</name>
+			<objecttype>com.uz.poi.poiComment.response.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCommentResponseUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		<event>
+			<name>commentResponseOwner</name>
+			<objecttype>com.uz.poi.poiComment.response.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCommentResponseOwnerUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		
+		<event>
+			<name>like</name>
+			<objecttype>com.uz.poi.likeablePoi.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiLikeUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_like</options>
+		</event>
+		<event>
+			<name>like</name>
+			<objecttype>com.uz.poi.poiComment.like.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCommentLikeUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_like</options>
+		</event>
+		<event>
+			<name>like</name>
+			<objecttype>com.uz.poi.poiComment.response.like.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCommentResponseLikeUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_like</options>
+		</event>
+		
+		<event>
+			<name>category</name>
+			<objecttype>com.uz.poi.poi.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiCategoryUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		<event>
+			<name>poi</name>
+			<objecttype>com.uz.poi.poi.notification</objecttype>
+			<classname>poi\system\user\notification\event\PoiUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		
+	</import>
+</data>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
+	<import>
+		<page identifier="com.uz.poi.PoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\PoiListPage</controller>
+			<handler>poi\system\page\handler\PoiListPageHandler</handler>
+			<permissions>user.poi.canViewPoi</permissions>
+			<name language="de">Points of Interest</name>
+			<name language="en">Points of Interest</name>
+			
+			<content language="en">
+				<title>Points of Interest</title>
+			</content>
+			<content language="de">
+				<title>Points of Interest</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.CategoryPoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\CategoryPoiListPage</controller>
+			<handler>poi\system\page\handler\CategoryPoiListPageHandler</handler>
+			<name language="de">Liste von POIs aus bestimmter Kategorie</name>
+			<name language="en">List of POIs in Certain Category</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.poi.canViewPoi</permissions>
+		</page>
+		<page identifier="com.uz.poi.Poi">
+			<pageType>system</pageType>
+			<controller>poi\page\PoiPage</controller>
+			<handler>poi\system\page\handler\PoiPageHandler</handler>
+			<name language="de">POI</name>
+			<name language="en">POI</name>
+			<parent>com.uz.poi.CategoryPoiList</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.poi.canViewPoi</permissions>
+		</page>
+		<page identifier="com.uz.poi.PoiLog">
+			<pageType>system</pageType>
+			<controller>poi\page\PoiLogPage</controller>
+			<name language="de">POI-Änderungsprotokoll</name>
+			<name language="en">POI Log</name>
+			<requireObjectID>1</requireObjectID>
+			<parent>com.uz.poi.Poi</parent>
+			<permissions>user.poi.canViewPoi</permissions>
+			
+			<content language="en">
+				<title>POI Log</title>
+			</content>
+			<content language="de">
+				<title>POI-Änderungsprotokoll</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.UnreadPoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\UnreadPoiListPage</controller>
+			<handler>poi\system\page\handler\UnreadPoiListPagePageHandler</handler>
+			<name language="de">Neue POIs</name>
+			<name language="en">New POIs</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<permissions>user.poi.canViewPoi</permissions>
+			
+			<content language="en">
+				<title>New POIs</title>
+			</content>
+			<content language="de">
+				<title>Neue POIs</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.UserPoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\UserPoiListPage</controller>
+			<handler>poi\system\page\handler\UserPoiListPageHandler</handler>
+			<name language="de">Liste von POIs eines bestimmten Benutzers</name>
+			<name language="en">List of POIs by a certain User</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.poi.canViewPoi</permissions>
+		</page>
+		<page identifier="com.uz.poi.WatchedPoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\WatchedPoiListPage</controller>
+			<handler>poi\system\page\handler\WatchedPoiListPageHandler</handler>
+			<name language="de">Abonnierte POIs</name>
+			<name language="en">Watched POIs</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<permissions>user.poi.canViewPoi</permissions>
+			
+			<content language="en">
+				<title>Watched POIs</title>
+			</content>
+			<content language="de">
+				<title>Abonnierte POIs</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.MyPoiList">
+			<pageType>system</pageType>
+			<controller>poi\page\MyPoiListPage</controller>
+			<handler>poi\system\page\handler\MyPoiListPageHandler</handler>
+			<name language="de">Eigene POIs</name>
+			<name language="en">My POIs</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<permissions>user.poi.canViewPoi</permissions>
+			
+			<content language="en">
+				<title>My POIs</title>
+			</content>
+			<content language="de">
+				<title>Eigene POIs</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.Map">
+			<pageType>system</pageType>
+			<controller>poi\page\MapPage</controller>
+			<handler>poi\system\page\handler\MapPageHandler</handler>
+			<name language="de">Karte</name>
+			<name language="en">Map</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<options>google_maps_api_key</options>
+			<permissions>user.poi.canViewPoi</permissions>
+			
+			<content language="en">
+				<title>Map</title>
+			</content>
+			<content language="de">
+				<title>Karte</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.poi.PoiAdd">
+			<pageType>system</pageType>
+			<controller>poi\form\PoiAddForm</controller>
+			<name language="de">POI hinzufügen</name>
+			<name language="en">Add POI</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<permissions>user.poi.canAddPoi</permissions>
+			
+			<content language="en">
+				<title>Add POI</title>
+			</content>
+			<content language="de">
+				<title>POI hinzufügen</title>
+			</content>
+		</page>
+		<page identifier="com.uz.poi.PoiEdit">
+			<pageType>system</pageType>
+			<controller>poi\form\PoiEditForm</controller>
+			<name language="de">POI bearbeiten</name>
+			<name language="en">Edit POI</name>
+			<parent>com.uz.poi.Poi</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.poi.canAddPoi</permissions>
+			
+			<content language="en">
+				<title>Edit POI</title>
+			</content>
+			<content language="de">
+				<title>POI bearbeiten</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.poi.PoiImport">
+			<pageType>system</pageType>
+			<controller>poi\form\PoiImportForm</controller>
+			<name language="de">POIs importieren</name>
+			<name language="en">Import POIs</name>
+			<parent>com.uz.poi.PoiList</parent>
+			<permissions>user.poi.canImportPois</permissions>
+			<content language="en">
+				<title>Import POIs</title>
+			</content>
+			<content language="de">
+				<title>POIs importieren</title>
+			</content>
+		</page>
+	</import>
+</data>

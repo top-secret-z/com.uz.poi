@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<categories>
+			<category name="poi">
+			</category>
+			
+			<category name="poi.general">
+				<parent>poi</parent>
+			</category>
+			<category name="poi.stats">
+				<parent>poi.general</parent>
+			</category>
+			<category name="poi.index">
+				<parent>poi.general</parent>
+			</category>
+			<category name="poi.pois">
+				<parent>poi.general</parent>
+			</category>
+			<category name="poi.visits">
+				<parent>poi.general</parent>
+			</category>
+			<category name="poi.map">
+				<parent>poi</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="poi_map_enable_center">
+				<categoryname>poi.map</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="poi_map_category_shorten">
+				<categoryname>poi.map</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>20</defaultvalue>
+				<minvalue>5</minvalue>
+				<maxvalue>100</maxvalue>
+			</option>
+			
+			<option name="poi_map_cache">
+				<categoryname>poi.map</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>30</defaultvalue>
+				<minvalue>1</minvalue>
+				<maxvalue>100</maxvalue>
+				<suffix>days</suffix>
+			</option>
+			
+			<option name="poi_map_geocoding_key">
+				<categoryname>poi.map</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>
+			
+			<option name="poi_map_hide_google_pois">
+				<categoryname>poi.map</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			
+			<option name="poi_index_enable_stats">
+				<categoryname>poi.index</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="poi_enable_multilingualism">
+				<categoryname>poi.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="poi_pois_per_page">
+				<categoryname>poi.pois</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>20</defaultvalue>
+			</option>
+			
+			<option name="poi_max_teaser_length">
+				<categoryname>poi.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>255</defaultvalue>
+				<maxvalue>65535</maxvalue>
+				<suffix>chars</suffix>
+			</option>
+			
+			<option name="poi_empty_recycle_bin_cycle">
+				<categoryname>poi.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>30</defaultvalue>
+				<minvalue>0</minvalue>
+				<suffix>days</suffix>
+			</option>
+			
+			<option name="poi_visits_enable">
+				<categoryname>poi.visits</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			
+			<option name="poi_visits_icon">
+				<categoryname>poi.visits</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>car</defaultvalue>
+			</option>
+			
+			<option name="poi_message_sidebar_enable_user_pois">
+				<categoryname>message.sidebar</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="poi_install_date">
+				<categoryname>general</categoryname>
+				<optiontype>integer</optiontype>
+				<hidden>1</hidden>
+			</option>
+		</options>
+	</import>
+</data>

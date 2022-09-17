@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<eventlistener name="htmlInputNodeProcessor">
+			<eventclassname>wcf\system\html\input\node\HtmlInputNodeProcessor</eventclassname>
+			<eventname>beforeEmbeddedProcess</eventname>
+			<listenerclassname>poi\system\event\listener\HtmlInputNodeProcessorListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="htmlInputNodeProcessorAdmin">
+			<eventclassname>wcf\system\html\input\node\HtmlInputNodeProcessor</eventclassname>
+			<eventname>beforeEmbeddedProcess</eventname>
+			<listenerclassname>poi\system\event\listener\HtmlInputNodeProcessorListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="userRenameUser">
+			<eventclassname>wcf\data\user\UserAction</eventclassname>
+			<eventname>rename</eventname>
+			<listenerclassname>poi\system\event\listener\UserActionRenameListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener name="userRenameAdmin">
+			<eventclassname>wcf\data\user\UserAction</eventclassname>
+			<eventname>rename</eventname>
+			<listenerclassname>poi\system\event\listener\UserActionRenameListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="statisticsBox">
+			<eventclassname>wcf\system\box\StatisticsBoxController</eventclassname>
+			<eventname>beforeLoadContent</eventname>
+			<listenerclassname>poi\system\event\listener\StatisticsBoxControllerListener</listenerclassname>
+		</eventlistener>
+		
+		<!-- Rebuild worker -->
+		<eventlistener name="userRebuildDataWorker">
+			<eventclassname>wcf\system\worker\UserRebuildDataWorker</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>poi\system\event\listener\UserRebuildDataWorkerListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		<eventlistener name="userActivityPointItemsRebuildDataWorker">
+			<eventclassname>wcf\system\worker\UserActivityPointItemsRebuildDataWorker</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>poi\system\event\listener\UserActivityPointItemsRebuildDataWorkerListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="membersListPage">
+			<eventclassname>wcf\page\MembersListPage</eventclassname>
+			<eventname>readParameters</eventname>
+			<listenerclassname>poi\system\event\listener\MembersListPageListener</listenerclassname>
+		</eventlistener>
+		
+		<!-- GDPR -->
+		<eventlistener name="poiGdprExport">
+			<eventclassname>wcf\acp\action\UserExportGdprAction</eventclassname>
+			<eventname>export</eventname>
+			<listenerclassname>poi\system\event\listener\UserDataExportListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<!-- IP Addresses -->
+		<eventlistener name="pruneIpAddresses">
+			<eventclassname>wcf\system\cronjob\PruneIpAddressesCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>poi\system\event\listener\PoiPruneIpAddressesCronjobListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener name="pruneIpAddressesAdmin">
+			<eventclassname>wcf\system\cronjob\PruneIpAddressesCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>poi\system\event\listener\PoiPruneIpAddressesCronjobListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<!-- User list box controller -->
+		<eventlistener name="userListBoxControllerUser">
+			<eventclassname>wcf\system\box\UserListBoxController</eventclassname>
+			<eventname>__construct,readObjects</eventname>
+			<listenerclassname>poi\system\event\listener\UserListBoxControllerListener</listenerclassname>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener name="userListBoxControllerAdmin">
+			<eventclassname>wcf\system\box\UserListBoxController</eventclassname>
+			<eventname>__construct,readObjects</eventname>
+			<listenerclassname>poi\system\event\listener\UserListBoxControllerListener</listenerclassname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+		</eventlistener>
+	</import>
+</data>

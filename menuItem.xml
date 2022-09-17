@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/menuItem.xsd">
+	<import>
+		<item identifier="com.uz.poi.PoiList">
+			<menu>com.woltlab.wcf.MainMenu</menu>
+			<title language="de">POI</title>
+			<title language="en">POI</title>
+			<page>com.uz.poi.PoiList</page>
+		</item>
+		<item identifier="com.uz.poi.UnreadPoiList">
+			<parent>com.uz.poi.PoiList</parent>
+			<title language="de">Neue POIs</title>
+			<title language="en">New POIs</title>
+			<page>com.uz.poi.UnreadPoiList</page>
+		</item>
+		<item identifier="com.uz.poi.WatchedPoiList">
+			<parent>com.uz.poi.PoiList</parent>
+			<title language="de">Abonnierte POIs</title>
+			<title language="en">Watched POIs</title>
+			<page>com.uz.poi.WatchedPoiList</page>
+		</item>
+		<item identifier="com.uz.poi.MyPoiList">
+			<parent>com.uz.poi.PoiList</parent>
+			<title language="de">Eigene POIs</title>
+			<title language="en">My POIs</title>
+			<page>com.uz.poi.MyPoiList</page>
+		</item>
+		<item identifier="com.uz.poi.Map">
+			<parent>com.uz.poi.PoiList</parent>
+			<title language="de">Karte</title>
+			<title language="en">Map</title>
+			<page>com.uz.poi.Map</page>
+		</item>
+	</import>
+</data>
