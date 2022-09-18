@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
-	<import>
-		<cronjob name="com.uz.poi.emptyRecycleBin">
-			<classname>poi\system\cronjob\EmptyRecycleBinCronjob</classname>
-			<description>Empties POI recycle bins</description>
-			<description language="de">Löscht POIs aus dem Papierkorb</description>
-			<startminute>30</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		
-		<cronjob name="com.uz.poi.cache.cleanup">
-			<classname>poi\system\cronjob\GeocacheCleanupCronjob</classname>
-			<description>Deletes expired POI geocoding cache entries</description>
-			<description language="de">Löscht abgelaufene Geocoding-Cache-Einträge für POI</description>
-			<startminute>20</startminute>
-			<starthour>2</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-	</import>
+    <import>
+        <cronjob name="com.uz.poi.emptyRecycleBin">
+            <classname>poi\system\cronjob\EmptyRecycleBinCronjob</classname>
+            <description>Empties POI recycle bins</description>
+            <description language="de">Löscht POIs aus dem Papierkorb</description>
+            <startminute>30</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+
+        <cronjob name="com.uz.poi.cache.cleanup">
+            <classname>poi\system\cronjob\GeocacheCleanupCronjob</classname>
+            <description>Deletes expired POI geocoding cache entries</description>
+            <description language="de">Löscht abgelaufene Geocoding-Cache-Einträge für POI</description>
+            <startminute>20</startminute>
+            <starthour>2</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+    </import>
 </data>
