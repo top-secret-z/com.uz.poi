@@ -8,6 +8,7 @@
         <isapplication>1</isapplication>
         <version>5.5.3</version>
         <date>2022-09-18</date>
+        <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
     <authorinformation>
