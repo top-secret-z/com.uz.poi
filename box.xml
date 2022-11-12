@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
-	<import>
-		<box identifier="com.uz.poi.Categories">
-			<name language="de">Kategorien (POI)</name>
-			<name language="en">Categories (POI)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.poi.categories</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.poi.PoiList</page>
-				<page>com.uz.poi.CategoryPoiList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Kategorien</title>
-			</content>
-			<content language="en">
-				<title>Categories</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.poi.LatestComments">
-			<name language="de">Letzte Kommentare (POI)</name>
-			<name language="en">Latest Comments (POI)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.poi.commentList</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.poi.PoiList</page>
-				<page>com.uz.poi.CategoryPoiList</page>
-			</visibilityExceptions>
-			<sortField>time</sortField>
-			<sortOrder>DESC</sortOrder>
-			<limit>5</limit>
-			
-			<content language="de">
-				<title>Letzte Kommentare</title>
-			</content>
-			<content language="en">
-				<title>Latest Comments</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.poi.MostActiveAuthors">
-			<name language="de">Aktivste Autoren (POI)</name>
-			<name language="en">Most Active Authors (POI)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.poi.mostActiveAuthors</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.poi.PoiList</page>
-				<page>com.uz.poi.CategoryPoiList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Aktivste Autoren</title>
-			</content>
-			<content language="en">
-				<title>Most Active Authors</title>
-			</content>
-		</box>
-		
-		<box identifier="com.uz.poi.TagCloud">
-			<name language="de">Schlagwortwolke (POI)</name>
-			<name language="en">Tag Cloud (POI)</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.poi.tagCloud</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<visibilityExceptions>
-				<page>com.uz.poi.PoiList</page>
-				<page>com.uz.poi.CategoryPoiList</page>
-			</visibilityExceptions>
-			
-			<content language="de">
-				<title>Tags</title>
-			</content>
-			<content language="en">
-				<title>Tags</title>
-			</content>
-		</box>
-	</import>
+    <import>
+        <box identifier="com.uz.poi.Categories">
+            <name language="de">Kategorien (POI)</name>
+            <name language="en">Categories (POI)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.poi.categories</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.poi.PoiList</page>
+                <page>com.uz.poi.CategoryPoiList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Kategorien</title>
+            </content>
+            <content language="en">
+                <title>Categories</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.poi.LatestComments">
+            <name language="de">Letzte Kommentare (POI)</name>
+            <name language="en">Latest Comments (POI)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.poi.commentList</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.poi.PoiList</page>
+                <page>com.uz.poi.CategoryPoiList</page>
+            </visibilityExceptions>
+            <sortField>time</sortField>
+            <sortOrder>DESC</sortOrder>
+            <limit>5</limit>
+
+            <content language="de">
+                <title>Letzte Kommentare</title>
+            </content>
+            <content language="en">
+                <title>Latest Comments</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.poi.MostActiveAuthors">
+            <name language="de">Aktivste Autoren (POI)</name>
+            <name language="en">Most Active Authors (POI)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.poi.mostActiveAuthors</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.poi.PoiList</page>
+                <page>com.uz.poi.CategoryPoiList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Aktivste Autoren</title>
+            </content>
+            <content language="en">
+                <title>Most Active Authors</title>
+            </content>
+        </box>
+
+        <box identifier="com.uz.poi.TagCloud">
+            <name language="de">Schlagwortwolke (POI)</name>
+            <name language="en">Tag Cloud (POI)</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.poi.tagCloud</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.uz.poi.PoiList</page>
+                <page>com.uz.poi.CategoryPoiList</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Tags</title>
+            </content>
+            <content language="en">
+                <title>Tags</title>
+            </content>
+        </box>
+    </import>
 </data>

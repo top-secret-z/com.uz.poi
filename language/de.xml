@@ -1,486 +1,486 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
 <import>
-	<category name="wcf.acl.option">
-		<item name="wcf.acl.option.com.uz.poi.category.canViewCategory"><![CDATA[Kann Kategorie sehen]]></item>
-		<item name="wcf.acl.option.com.uz.poi.category.canUseCategory"><![CDATA[Kann POIs in Kategorie eintragen]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.admin.poi"><![CDATA[POI]]></item>
-		<item name="wcf.acp.group.option.category.mod.poi"><![CDATA[POI]]></item>
-		<item name="wcf.acp.group.option.category.user.poi"><![CDATA[POI]]></item>
-		
-		<item name="wcf.acp.group.option.admin.poi.canManageCategory"><![CDATA[Kann Kategorien verwalten]]></item>
-		<item name="wcf.acp.group.option.admin.poi.canManageOption"><![CDATA[Kann Eingabefelder verwalten]]></item>
-		
-		<item name="wcf.acp.group.option.mod.poi.canDeleteComment"><![CDATA[Kann Kommentare löschen]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canDeletePoi"><![CDATA[Kann POIs löschen]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canDeletePoiCompletely"><![CDATA[Kann POIs endgültig löschen]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canEditComment"><![CDATA[Kann Kommentare bearbeiten]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canEditPoi"><![CDATA[Kann POIs bearbeiten]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canModerateComment"><![CDATA[Kann Kommentare moderieren]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canModeratePoi"><![CDATA[Kann POIs moderieren]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canRestorePoi"><![CDATA[Kann POIs wiederherstellen]]></item>
-		<item name="wcf.acp.group.option.mod.poi.canViewDeletedPoi"><![CDATA[Kann gelöschte POIs sehen]]></item>
-		
-		<item name="wcf.acp.group.option.user.poi.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen für Dateianhänge]]></item>
-		<item name="wcf.acp.group.option.user.poi.allowedAttachmentExtensions.description"><![CDATA[Eine Dateiendung pro Zeile]]></item>
-		<item name="wcf.acp.group.option.user.poi.canAddComment"><![CDATA[Kann Kommentare erstellen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canAddCommentWithoutModeration"><![CDATA[Kann Kommentare ohne Moderation erstellen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canAddPoi"><![CDATA[Kann POIs erstellen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canAddPoiWithoutModeration"><![CDATA[Kann POIs ohne Moderation erstellen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canDeleteComment"><![CDATA[Kann eigene Kommentare löschen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canDeletePoi"><![CDATA[Kann eigene POIs löschen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canDisableCommentFunction"><![CDATA[Kann für eigene POIs die Kommentar-Funktion abschalten]]></item>
-		<item name="wcf.acp.group.option.user.poi.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canDownloadPois"><![CDATA[Kann POIs herunterladen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canEditComment"><![CDATA[Kann eigene Kommentare bearbeiten]]></item>
-		<item name="wcf.acp.group.option.user.poi.canEditPoi"><![CDATA[Kann eigene POIs bearbeiten]]></item>
-		<item name="wcf.acp.group.option.user.poi.canImportPois"><![CDATA[Kann POIs importieren]]></item>
-		<item name="wcf.acp.group.option.user.poi.canSeeVisit"><![CDATA[Kann POI-Besucher sehen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canUploadAttachment"><![CDATA[Kann Dateien anhängen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canViewPoi"><![CDATA[Kann POIs sehen]]></item>
-		<item name="wcf.acp.group.option.user.poi.canVisitPoi"><![CDATA[Kann POIs besuchen]]></item>
-		<item name="wcf.acp.group.option.user.poi.coverPhoto.maxSize"><![CDATA[Maximale Titelbild-Größe]]></item>
-		<item name="wcf.acp.group.option.user.poi.maxAttachmentCount"><![CDATA[Maximale Dateianhänge pro POI]]></item>
-		<item name="wcf.acp.group.option.user.poi.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgröße]]></item>
-		<item name="wcf.acp.group.option.user.poi.maxTextLength"><![CDATA[Maximale Teaser-Länge (POI)]]></item>
-	</category>
-	
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.poi.categories"><![CDATA[POI-Kategorien]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.poi.tagCloud"><![CDATA[POI-Tags]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.poi.mostActiveAuthors"><![CDATA[Aktivste POI-Autoren]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.poi.poiList"><![CDATA[POIs]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.poi.commentList"><![CDATA[POI-Kommentare]]></item>
-	</category>
-	
-	<category name="wcf.acp.content">
-		<item name="wcf.acp.content.provider.com.uz.poi.pois"><![CDATA[POIs]]></item>
-	</category>
-	
-	<category name="wcf.acp.index">
-		<item name="wcf.acp.index.system.software.poiVersion"><![CDATA[POI-Version]]></item>
-	</category>
-	
-	<category name="wcf.acp.modificationLog">
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.delete"><![CDATA[POI gelöscht]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.disable"><![CDATA[POI deaktiviert]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.edit"><![CDATA[POI bearbeitet]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.enable"><![CDATA[POI freigeschaltet]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.restore"><![CDATA[POI wiederhergestellt]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.setAsFeatured"><![CDATA[POI als „Empfohlen“ markiert]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.trash"><![CDATA[POI in den Papierkorb verschoben]]></item>
-		<item name="wcf.acp.modificationLog.com.uz.poi.poi.unsetAsFeatured"><![CDATA[POI „Empfohlen“-Markierung entfernt]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.poi"><![CDATA[POI]]></item>
-		<item name="wcf.acp.option.category.poi.general"><![CDATA[Allgemein]]></item>
-		<item name="wcf.acp.option.category.poi.index"><![CDATA[Startseite]]></item>
-		<item name="wcf.acp.option.category.poi.map"><![CDATA[Karte]]></item>
-		<item name="wcf.acp.option.category.poi.pois"><![CDATA[POIs]]></item>
-		<item name="wcf.acp.option.category.poi.stats"><![CDATA[Statistiken]]></item>
-		<item name="wcf.acp.option.category.poi.visits"><![CDATA[Besuche]]></item>
-		
-		<item name="wcf.acp.option.poi_empty_recycle_bin_cycle"><![CDATA[Papierkorb automatisch entleeren]]></item>
-		<item name="wcf.acp.option.poi_empty_recycle_bin_cycle.description"><![CDATA[Zeitraum nach dem POIs aus dem Papierkorb automatisch gelöscht werden. [0, um die Löschung gänzlich zu deaktivieren]]]></item>
-		<item name="wcf.acp.option.poi_enable_multilingualism"><![CDATA[Mehrsprachigkeit von POIs aktivieren]]></item>
-		<item name="wcf.acp.option.poi_index_enable_stats"><![CDATA[Allgemeine Statistik anzeigen]]></item>
-		<item name="wcf.acp.option.poi_map_enable_center"><![CDATA[Karte beim Öffnen zentrieren]]></item>
-		<item name="wcf.acp.option.poi_map_cache"><![CDATA[Geocoding-Cache]]></item>
-		<item name="wcf.acp.option.poi_map_cache.description"><![CDATA[Gespeicherte Geocoding-Daten werden nach der angegebenen Zeit automatisch gelöscht.]]></item>
-		<item name="wcf.acp.option.poi_map_category_shorten"><![CDATA[Namen der Kategorien kürzen]]></item>
-		<item name="wcf.acp.option.poi_map_category_shorten.description"><![CDATA[Verkürzt die als Karten-Filter genutzten Namen der Kategorien auf die angegebene Anzahl von Zeichen.]]></item>
-		<item name="wcf.acp.option.poi_map_geocoding_key"><![CDATA[Google Geocoding API-Schlüssel]]></item>
-		<item name="wcf.acp.option.poi_map_geocoding_key.description"><![CDATA[Zusätzlicher Browser-API-Schlüssel für die Suche in der Karte und den Import. Wird kein Schlüssel eingegeben, wird der in der System-Konfiguration angegebene Browser-API-Schlüssel genutzt. Ein kostenloser API Schlüssel ist <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" class="externalURL">hier</a> verfügbar.]]></item>
-		<item name="wcf.acp.option.poi_map_hide_google_pois"><![CDATA[Google POIs ausblenden]]></item>
-		<item name="wcf.acp.option.poi_map_hide_google_pois.description"><![CDATA[Blendet Google-eigene POIs in der Karte aus.]]></item>
-		<item name="wcf.acp.option.poi_max_teaser_length"><![CDATA[Maximale Teaser-Länge]]></item>
-		<item name="wcf.acp.option.poi_message_sidebar_enable_user_pois"><![CDATA[POI-Anzahl der Autoren anzeigen]]></item>
-		<item name="wcf.acp.option.poi_pois_per_page"><![CDATA[POIs pro Seite]]></item>
-		<item name="wcf.acp.option.poi_visits_enable"><![CDATA[Besuche aktivieren]]></item>
-		<item name="wcf.acp.option.poi_visits_enable.description"><![CDATA[Erlaubt es den Mitgliedern, POIs als besucht zu markieren.]]></item>
-		<item name="wcf.acp.option.poi_visits_icon"><![CDATA[Icon]]></item>
-		<item name="wcf.acp.option.poi_visits_icon.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, welches Font Awesome-Icon für Besuche genutzt werden soll. Standard ist „car“.]]></item>
-		
-	</category>
-	
-	<category name="wcf.acp.rebuildData">
-		<item name="wcf.acp.rebuildData.com.uz.poi.poi"><![CDATA[POIs aktualisieren]]></item>
-		<item name="wcf.acp.rebuildData.com.uz.poi.poi.description"><![CDATA[Aktualisiert den Suchindex für POIs und berechnet Aktivitätspunkte neu]]></item>
-		<item name="wcf.acp.rebuildData.com.uz.poi.visit"><![CDATA[POI-Besuche aktualisieren]]></item>
-		<item name="wcf.acp.rebuildData.com.uz.poi.visit.description"><![CDATA[Aktualisiert die POI-Besuche]]></item>
-	</category>
-	
-	<category name="wcf.acp.sitemap">
-		<item name="wcf.acp.sitemap.objectType.com.uz.poi.sitemap.object.poi"><![CDATA[POIs]]></item>
-		<item name="wcf.acp.sitemap.objectType.com.uz.poi.sitemap.object.category"><![CDATA[POI-Kategorien]]></item>
-	</category>
-	
-	<category name="wcf.acp.stat">
-		<item name="wcf.acp.stat.category.com.uz.poi"><![CDATA[POI]]></item>
-		<item name="wcf.acp.stat.com.uz.poi.poi"><![CDATA[POIs]]></item>
-		<item name="wcf.acp.stat.com.uz.poi.poiComment"><![CDATA[POI-Kommentare]]></item>
-	</category>
-	
-	<category name="poi.acp">
-		<item name="poi.acp.category"><![CDATA[Marker für diese Kategorie]]></item>
-		<item name="poi.acp.category.marker"><![CDATA[Marker]]></item>
-		<item name="poi.acp.marker"><![CDATA[Marker]]></item>
-		<item name="poi.acp.marker.category"><![CDATA[Kategorie]]></item>
-		<item name="poi.acp.marker.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Marker wirklich löschen?]]></item>
-		<item name="poi.acp.marker.error.noIcons"><![CDATA[Keine Marker gefunden.]]></item>
-		<item name="poi.acp.marker.file"><![CDATA[Marker-Datei]]></item>
-		<item name="poi.acp.marker.file.upload"><![CDATA[Marker hochladen]]></item>
-		<item name="poi.acp.marker.file.upload.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Lade{else}Laden Sie{/if} hier die Bilddatei des Markers hoch. Der Marker darf maximal 100x200 px groß sein.]]></item>
-		<item name="poi.acp.marker.file.upload.error.exists"><![CDATA[Die Datei existiert bereits.]]></item>
-		<item name="poi.acp.marker.file.upload.error.name"><![CDATA[Der Dateiname darf nur aus ASCII-Zeichen bestehen. Leerzeichen sind nicht erlaubt.]]></item>
-		<item name="poi.acp.marker.file.upload.error.noImage"><![CDATA[Bei der hochgeladenen Datei handelt es sich um keine Bilddatei.]]></item>
-		<item name="poi.acp.marker.file.upload.error.tooBig"><![CDATA[Die Datei ist zu groß.]]></item>
-		<item name="poi.acp.marker.file.upload.error.uploadFailed"><![CDATA[Das Hochladen der ausgewählten Datei ist fehlgeschlagen.]]></item>
-		<item name="poi.acp.marker.filename"><![CDATA[Dateiname]]></item>
-		<item name="poi.acp.marker.size"><![CDATA[Größe]]></item>
-		
-		<item name="poi.acp.poi.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
-		<item name="poi.acp.poi.option.defaultValue"><![CDATA[Standardwert]]></item>
-		<item name="poi.acp.poi.option.defaultValue.description"><![CDATA[Wert, der beim erstmaligen Ausfüllen als Standard vorgegeben ist.]]></item>
-		<item name="poi.acp.poi.option.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Eingabefeld <span class="confirmationObject">{$option->optionTitle|language}</span> wirklich löschen?]]></item>
-		<item name="poi.acp.poi.option.edit"><![CDATA[Eingabefeld bearbeiten]]></item>
-		<item name="poi.acp.poi.option.list"><![CDATA[Eingabefelder]]></item>
-		<item name="poi.acp.poi.option.optionType"><![CDATA[Feldtyp]]></item>
-		<item name="poi.acp.poi.option.optionType.boolean"><![CDATA[Ja/Nein]]></item>
-		<item name="poi.acp.poi.option.optionType.boolean.no"><![CDATA[Nein]]></item>
-		<item name="poi.acp.poi.option.optionType.boolean.yes"><![CDATA[Ja]]></item>
-		<item name="poi.acp.poi.option.optionType.checkboxes"><![CDATA[Checkboxen]]></item>
-		<item name="poi.acp.poi.option.optionType.date"><![CDATA[Datum]]></item>
-		<item name="poi.acp.poi.option.optionType.integer"><![CDATA[Ganze Zahl]]></item>
-		<item name="poi.acp.poi.option.optionType.float"><![CDATA[Dezimalzahl]]></item>
-		<item name="poi.acp.poi.option.optionType.message"><![CDATA[Mehrzeiliger Text (BBCode-Unterstützung)]]></item>
-		<item name="poi.acp.poi.option.optionType.multiSelect"><![CDATA[Multi-Select]]></item>
-		<item name="poi.acp.poi.option.optionType.radioButton"><![CDATA[Radio-Buttons]]></item>
-		<item name="poi.acp.poi.option.optionType.select"><![CDATA[Select]]></item>
-		<item name="poi.acp.poi.option.optionType.text"><![CDATA[Einzeiliger Text]]></item>
-		<item name="poi.acp.poi.option.optionType.textarea"><![CDATA[Mehrzeiliger Text]]></item>
-		<item name="poi.acp.poi.option.optionType.URL"><![CDATA[Link]]></item>
-		<item name="poi.acp.poi.option.required"><![CDATA[Erforderlich]]></item>
-		<item name="poi.acp.poi.option.selectOptions"><![CDATA[Auswahloptionen]]></item>
-		<item name="poi.acp.poi.option.selectOptions.description"><![CDATA[Hier {if LANGUAGE_USE_INFORMAL_VARIANT}kannst du{else}können Sie{/if} pro Zeile Auswahloptionen eintragen, beispielsweise bei einer Select-Box. {if LANGUAGE_USE_INFORMAL_VARIANT}Beachte{else}Beachten Sie{/if}, dass bei der Verwendung des Doppelpunktes der linke Teil der Zeile als interner Bezeichner verwendet wird. Dieser erlaubt es den Text zu ändern, ohne, dass die Auswahl von Benutzern verloren geht.]]></item>
-		<item name="poi.acp.poi.option.showOrder"><![CDATA[Reihenfolge]]></item>
-		<item name="poi.acp.poi.option.typeData"><![CDATA[Eigenschaften]]></item>
-		<item name="poi.acp.poi.option.validationPattern"><![CDATA[Regulärer Ausdruck zur Validierung]]></item>
-		<item name="poi.acp.poi.option.validationPattern.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Trage{else}Tragen Sie{/if} hier den regulären Ausdruck ein, um die Eingabe der Benutzer zu validieren.]]></item>
-		
-	</category>
-	
-	<category name="poi.acp.menu">
-		<item name="poi.acp.menu.link.poi"><![CDATA[POI]]></item>
-		<item name="poi.acp.menu.link.poi.category.list"><![CDATA[Kategorien]]></item>
-		<item name="poi.acp.menu.link.poi.category.add"><![CDATA[Kategorie hinzufügen]]></item>
-		<item name="poi.acp.menu.link.poi.marker.list"><![CDATA[Marker]]></item>
-		<item name="poi.acp.menu.link.poi.marker.add"><![CDATA[Marker hinzufügen]]></item>
-		<item name="poi.acp.menu.link.poi.option.list"><![CDATA[Eingabefelder]]></item>
-		<item name="poi.acp.menu.link.poi.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
-	</category>
-	
-	<category name="poi.category">
-		<item name="poi.category.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diese Kategorie wirklich löschen? Alle sich in dieser Kategorie befindlichen Unterkategorien werden in die Elternkategorie dieser Kategorie verschoben und POIs, die sich ausschließlich in dieser Kategorie befinden, werden gelöscht.]]></item>
-		<item name="poi.category.categories"><![CDATA[Kategorien]]></item>
-		<item name="poi.category.markAllAsRead"><![CDATA[Alle als gelesen markieren]]></item>
-	</category>
-	
-	<category name="poi.image">
-		<item name="poi.image.coverPhoto.upload.limits"><![CDATA[Minimale Bildgröße: {$coverPhotoDimensions.min.width}×{$coverPhotoDimensions.min.height} Pixel<br>Maximale Bildgröße: {$coverPhotoDimensions.max.width}×{$coverPhotoDimensions.max.height} Pixel<br>Erlaubte Dateiendungen: gif, jpg, jpeg, png<br>Maximale Dateigröße: {$__wcf->session->getPermission($coverPhotoPermissionMaxSize)|filesize}]]></item>
-	</category>
-	
-	<category name="poi.index">
-		<item name="poi.index.beta.test"><![CDATA[Der Beta-Test ist beendet.]]></item>
-		<item name="poi.index.copyright"><![CDATA[<a href="https://www.zaydowicz.de" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>POI: <strong>Points of Interest{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, entwickelt von <strong>zaydowicz.de</strong></a>]]></item>
-		<item name="poi.index.stats"><![CDATA[Statistik]]></item>
-		<item name="poi.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
+    <category name="wcf.acl.option">
+        <item name="wcf.acl.option.com.uz.poi.category.canViewCategory"><![CDATA[Kann Kategorie sehen]]></item>
+        <item name="wcf.acl.option.com.uz.poi.category.canUseCategory"><![CDATA[Kann POIs in Kategorie eintragen]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.admin.poi"><![CDATA[POI]]></item>
+        <item name="wcf.acp.group.option.category.mod.poi"><![CDATA[POI]]></item>
+        <item name="wcf.acp.group.option.category.user.poi"><![CDATA[POI]]></item>
+
+        <item name="wcf.acp.group.option.admin.poi.canManageCategory"><![CDATA[Kann Kategorien verwalten]]></item>
+        <item name="wcf.acp.group.option.admin.poi.canManageOption"><![CDATA[Kann Eingabefelder verwalten]]></item>
+
+        <item name="wcf.acp.group.option.mod.poi.canDeleteComment"><![CDATA[Kann Kommentare löschen]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canDeletePoi"><![CDATA[Kann POIs löschen]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canDeletePoiCompletely"><![CDATA[Kann POIs endgültig löschen]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canEditComment"><![CDATA[Kann Kommentare bearbeiten]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canEditPoi"><![CDATA[Kann POIs bearbeiten]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canModerateComment"><![CDATA[Kann Kommentare moderieren]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canModeratePoi"><![CDATA[Kann POIs moderieren]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canRestorePoi"><![CDATA[Kann POIs wiederherstellen]]></item>
+        <item name="wcf.acp.group.option.mod.poi.canViewDeletedPoi"><![CDATA[Kann gelöschte POIs sehen]]></item>
+
+        <item name="wcf.acp.group.option.user.poi.allowedAttachmentExtensions"><![CDATA[Erlaubte Dateiendungen für Dateianhänge]]></item>
+        <item name="wcf.acp.group.option.user.poi.allowedAttachmentExtensions.description"><![CDATA[Eine Dateiendung pro Zeile]]></item>
+        <item name="wcf.acp.group.option.user.poi.canAddComment"><![CDATA[Kann Kommentare erstellen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canAddCommentWithoutModeration"><![CDATA[Kann Kommentare ohne Moderation erstellen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canAddPoi"><![CDATA[Kann POIs erstellen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canAddPoiWithoutModeration"><![CDATA[Kann POIs ohne Moderation erstellen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canDeleteComment"><![CDATA[Kann eigene Kommentare löschen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canDeletePoi"><![CDATA[Kann eigene POIs löschen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canDisableCommentFunction"><![CDATA[Kann für eigene POIs die Kommentar-Funktion abschalten]]></item>
+        <item name="wcf.acp.group.option.user.poi.canDownloadAttachment"><![CDATA[Kann Dateianhänge herunterladen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canDownloadPois"><![CDATA[Kann POIs herunterladen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canEditComment"><![CDATA[Kann eigene Kommentare bearbeiten]]></item>
+        <item name="wcf.acp.group.option.user.poi.canEditPoi"><![CDATA[Kann eigene POIs bearbeiten]]></item>
+        <item name="wcf.acp.group.option.user.poi.canImportPois"><![CDATA[Kann POIs importieren]]></item>
+        <item name="wcf.acp.group.option.user.poi.canSeeVisit"><![CDATA[Kann POI-Besucher sehen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canUploadAttachment"><![CDATA[Kann Dateien anhängen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canViewPoi"><![CDATA[Kann POIs sehen]]></item>
+        <item name="wcf.acp.group.option.user.poi.canVisitPoi"><![CDATA[Kann POIs besuchen]]></item>
+        <item name="wcf.acp.group.option.user.poi.coverPhoto.maxSize"><![CDATA[Maximale Titelbild-Größe]]></item>
+        <item name="wcf.acp.group.option.user.poi.maxAttachmentCount"><![CDATA[Maximale Dateianhänge pro POI]]></item>
+        <item name="wcf.acp.group.option.user.poi.maxAttachmentSize"><![CDATA[Maximale Dateianhangsgröße]]></item>
+        <item name="wcf.acp.group.option.user.poi.maxTextLength"><![CDATA[Maximale Teaser-Länge (POI)]]></item>
+    </category>
+
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.poi.categories"><![CDATA[POI-Kategorien]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.poi.tagCloud"><![CDATA[POI-Tags]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.poi.mostActiveAuthors"><![CDATA[Aktivste POI-Autoren]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.poi.poiList"><![CDATA[POIs]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.poi.commentList"><![CDATA[POI-Kommentare]]></item>
+    </category>
+
+    <category name="wcf.acp.content">
+        <item name="wcf.acp.content.provider.com.uz.poi.pois"><![CDATA[POIs]]></item>
+    </category>
+
+    <category name="wcf.acp.index">
+        <item name="wcf.acp.index.system.software.poiVersion"><![CDATA[POI-Version]]></item>
+    </category>
+
+    <category name="wcf.acp.modificationLog">
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.delete"><![CDATA[POI gelöscht]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.disable"><![CDATA[POI deaktiviert]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.edit"><![CDATA[POI bearbeitet]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.enable"><![CDATA[POI freigeschaltet]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.restore"><![CDATA[POI wiederhergestellt]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.setAsFeatured"><![CDATA[POI als „Empfohlen“ markiert]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.trash"><![CDATA[POI in den Papierkorb verschoben]]></item>
+        <item name="wcf.acp.modificationLog.com.uz.poi.poi.unsetAsFeatured"><![CDATA[POI „Empfohlen“-Markierung entfernt]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.poi"><![CDATA[POI]]></item>
+        <item name="wcf.acp.option.category.poi.general"><![CDATA[Allgemein]]></item>
+        <item name="wcf.acp.option.category.poi.index"><![CDATA[Startseite]]></item>
+        <item name="wcf.acp.option.category.poi.map"><![CDATA[Karte]]></item>
+        <item name="wcf.acp.option.category.poi.pois"><![CDATA[POIs]]></item>
+        <item name="wcf.acp.option.category.poi.stats"><![CDATA[Statistiken]]></item>
+        <item name="wcf.acp.option.category.poi.visits"><![CDATA[Besuche]]></item>
+
+        <item name="wcf.acp.option.poi_empty_recycle_bin_cycle"><![CDATA[Papierkorb automatisch entleeren]]></item>
+        <item name="wcf.acp.option.poi_empty_recycle_bin_cycle.description"><![CDATA[Zeitraum nach dem POIs aus dem Papierkorb automatisch gelöscht werden. [0, um die Löschung gänzlich zu deaktivieren]]]></item>
+        <item name="wcf.acp.option.poi_enable_multilingualism"><![CDATA[Mehrsprachigkeit von POIs aktivieren]]></item>
+        <item name="wcf.acp.option.poi_index_enable_stats"><![CDATA[Allgemeine Statistik anzeigen]]></item>
+        <item name="wcf.acp.option.poi_map_enable_center"><![CDATA[Karte beim Öffnen zentrieren]]></item>
+        <item name="wcf.acp.option.poi_map_cache"><![CDATA[Geocoding-Cache]]></item>
+        <item name="wcf.acp.option.poi_map_cache.description"><![CDATA[Gespeicherte Geocoding-Daten werden nach der angegebenen Zeit automatisch gelöscht.]]></item>
+        <item name="wcf.acp.option.poi_map_category_shorten"><![CDATA[Namen der Kategorien kürzen]]></item>
+        <item name="wcf.acp.option.poi_map_category_shorten.description"><![CDATA[Verkürzt die als Karten-Filter genutzten Namen der Kategorien auf die angegebene Anzahl von Zeichen.]]></item>
+        <item name="wcf.acp.option.poi_map_geocoding_key"><![CDATA[Google Geocoding API-Schlüssel]]></item>
+        <item name="wcf.acp.option.poi_map_geocoding_key.description"><![CDATA[Zusätzlicher Browser-API-Schlüssel für die Suche in der Karte und den Import. Wird kein Schlüssel eingegeben, wird der in der System-Konfiguration angegebene Browser-API-Schlüssel genutzt. Ein kostenloser API Schlüssel ist <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" class="externalURL">hier</a> verfügbar.]]></item>
+        <item name="wcf.acp.option.poi_map_hide_google_pois"><![CDATA[Google POIs ausblenden]]></item>
+        <item name="wcf.acp.option.poi_map_hide_google_pois.description"><![CDATA[Blendet Google-eigene POIs in der Karte aus.]]></item>
+        <item name="wcf.acp.option.poi_max_teaser_length"><![CDATA[Maximale Teaser-Länge]]></item>
+        <item name="wcf.acp.option.poi_message_sidebar_enable_user_pois"><![CDATA[POI-Anzahl der Autoren anzeigen]]></item>
+        <item name="wcf.acp.option.poi_pois_per_page"><![CDATA[POIs pro Seite]]></item>
+        <item name="wcf.acp.option.poi_visits_enable"><![CDATA[Besuche aktivieren]]></item>
+        <item name="wcf.acp.option.poi_visits_enable.description"><![CDATA[Erlaubt es den Mitgliedern, POIs als besucht zu markieren.]]></item>
+        <item name="wcf.acp.option.poi_visits_icon"><![CDATA[Icon]]></item>
+        <item name="wcf.acp.option.poi_visits_icon.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, welches Font Awesome-Icon für Besuche genutzt werden soll. Standard ist „car“.]]></item>
+
+    </category>
+
+    <category name="wcf.acp.rebuildData">
+        <item name="wcf.acp.rebuildData.com.uz.poi.poi"><![CDATA[POIs aktualisieren]]></item>
+        <item name="wcf.acp.rebuildData.com.uz.poi.poi.description"><![CDATA[Aktualisiert den Suchindex für POIs und berechnet Aktivitätspunkte neu]]></item>
+        <item name="wcf.acp.rebuildData.com.uz.poi.visit"><![CDATA[POI-Besuche aktualisieren]]></item>
+        <item name="wcf.acp.rebuildData.com.uz.poi.visit.description"><![CDATA[Aktualisiert die POI-Besuche]]></item>
+    </category>
+
+    <category name="wcf.acp.sitemap">
+        <item name="wcf.acp.sitemap.objectType.com.uz.poi.sitemap.object.poi"><![CDATA[POIs]]></item>
+        <item name="wcf.acp.sitemap.objectType.com.uz.poi.sitemap.object.category"><![CDATA[POI-Kategorien]]></item>
+    </category>
+
+    <category name="wcf.acp.stat">
+        <item name="wcf.acp.stat.category.com.uz.poi"><![CDATA[POI]]></item>
+        <item name="wcf.acp.stat.com.uz.poi.poi"><![CDATA[POIs]]></item>
+        <item name="wcf.acp.stat.com.uz.poi.poiComment"><![CDATA[POI-Kommentare]]></item>
+    </category>
+
+    <category name="poi.acp">
+        <item name="poi.acp.category"><![CDATA[Marker für diese Kategorie]]></item>
+        <item name="poi.acp.category.marker"><![CDATA[Marker]]></item>
+        <item name="poi.acp.marker"><![CDATA[Marker]]></item>
+        <item name="poi.acp.marker.category"><![CDATA[Kategorie]]></item>
+        <item name="poi.acp.marker.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Marker wirklich löschen?]]></item>
+        <item name="poi.acp.marker.error.noIcons"><![CDATA[Keine Marker gefunden.]]></item>
+        <item name="poi.acp.marker.file"><![CDATA[Marker-Datei]]></item>
+        <item name="poi.acp.marker.file.upload"><![CDATA[Marker hochladen]]></item>
+        <item name="poi.acp.marker.file.upload.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Lade{else}Laden Sie{/if} hier die Bilddatei des Markers hoch. Der Marker darf maximal 100x200 px groß sein.]]></item>
+        <item name="poi.acp.marker.file.upload.error.exists"><![CDATA[Die Datei existiert bereits.]]></item>
+        <item name="poi.acp.marker.file.upload.error.name"><![CDATA[Der Dateiname darf nur aus ASCII-Zeichen bestehen. Leerzeichen sind nicht erlaubt.]]></item>
+        <item name="poi.acp.marker.file.upload.error.noImage"><![CDATA[Bei der hochgeladenen Datei handelt es sich um keine Bilddatei.]]></item>
+        <item name="poi.acp.marker.file.upload.error.tooBig"><![CDATA[Die Datei ist zu groß.]]></item>
+        <item name="poi.acp.marker.file.upload.error.uploadFailed"><![CDATA[Das Hochladen der ausgewählten Datei ist fehlgeschlagen.]]></item>
+        <item name="poi.acp.marker.filename"><![CDATA[Dateiname]]></item>
+        <item name="poi.acp.marker.size"><![CDATA[Größe]]></item>
+
+        <item name="poi.acp.poi.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
+        <item name="poi.acp.poi.option.defaultValue"><![CDATA[Standardwert]]></item>
+        <item name="poi.acp.poi.option.defaultValue.description"><![CDATA[Wert, der beim erstmaligen Ausfüllen als Standard vorgegeben ist.]]></item>
+        <item name="poi.acp.poi.option.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Eingabefeld <span class="confirmationObject">{$option->optionTitle|language}</span> wirklich löschen?]]></item>
+        <item name="poi.acp.poi.option.edit"><![CDATA[Eingabefeld bearbeiten]]></item>
+        <item name="poi.acp.poi.option.list"><![CDATA[Eingabefelder]]></item>
+        <item name="poi.acp.poi.option.optionType"><![CDATA[Feldtyp]]></item>
+        <item name="poi.acp.poi.option.optionType.boolean"><![CDATA[Ja/Nein]]></item>
+        <item name="poi.acp.poi.option.optionType.boolean.no"><![CDATA[Nein]]></item>
+        <item name="poi.acp.poi.option.optionType.boolean.yes"><![CDATA[Ja]]></item>
+        <item name="poi.acp.poi.option.optionType.checkboxes"><![CDATA[Checkboxen]]></item>
+        <item name="poi.acp.poi.option.optionType.date"><![CDATA[Datum]]></item>
+        <item name="poi.acp.poi.option.optionType.integer"><![CDATA[Ganze Zahl]]></item>
+        <item name="poi.acp.poi.option.optionType.float"><![CDATA[Dezimalzahl]]></item>
+        <item name="poi.acp.poi.option.optionType.message"><![CDATA[Mehrzeiliger Text (BBCode-Unterstützung)]]></item>
+        <item name="poi.acp.poi.option.optionType.multiSelect"><![CDATA[Multi-Select]]></item>
+        <item name="poi.acp.poi.option.optionType.radioButton"><![CDATA[Radio-Buttons]]></item>
+        <item name="poi.acp.poi.option.optionType.select"><![CDATA[Select]]></item>
+        <item name="poi.acp.poi.option.optionType.text"><![CDATA[Einzeiliger Text]]></item>
+        <item name="poi.acp.poi.option.optionType.textarea"><![CDATA[Mehrzeiliger Text]]></item>
+        <item name="poi.acp.poi.option.optionType.URL"><![CDATA[Link]]></item>
+        <item name="poi.acp.poi.option.required"><![CDATA[Erforderlich]]></item>
+        <item name="poi.acp.poi.option.selectOptions"><![CDATA[Auswahloptionen]]></item>
+        <item name="poi.acp.poi.option.selectOptions.description"><![CDATA[Hier {if LANGUAGE_USE_INFORMAL_VARIANT}kannst du{else}können Sie{/if} pro Zeile Auswahloptionen eintragen, beispielsweise bei einer Select-Box. {if LANGUAGE_USE_INFORMAL_VARIANT}Beachte{else}Beachten Sie{/if}, dass bei der Verwendung des Doppelpunktes der linke Teil der Zeile als interner Bezeichner verwendet wird. Dieser erlaubt es den Text zu ändern, ohne, dass die Auswahl von Benutzern verloren geht.]]></item>
+        <item name="poi.acp.poi.option.showOrder"><![CDATA[Reihenfolge]]></item>
+        <item name="poi.acp.poi.option.typeData"><![CDATA[Eigenschaften]]></item>
+        <item name="poi.acp.poi.option.validationPattern"><![CDATA[Regulärer Ausdruck zur Validierung]]></item>
+        <item name="poi.acp.poi.option.validationPattern.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Trage{else}Tragen Sie{/if} hier den regulären Ausdruck ein, um die Eingabe der Benutzer zu validieren.]]></item>
+
+    </category>
+
+    <category name="poi.acp.menu">
+        <item name="poi.acp.menu.link.poi"><![CDATA[POI]]></item>
+        <item name="poi.acp.menu.link.poi.category.list"><![CDATA[Kategorien]]></item>
+        <item name="poi.acp.menu.link.poi.category.add"><![CDATA[Kategorie hinzufügen]]></item>
+        <item name="poi.acp.menu.link.poi.marker.list"><![CDATA[Marker]]></item>
+        <item name="poi.acp.menu.link.poi.marker.add"><![CDATA[Marker hinzufügen]]></item>
+        <item name="poi.acp.menu.link.poi.option.list"><![CDATA[Eingabefelder]]></item>
+        <item name="poi.acp.menu.link.poi.option.add"><![CDATA[Eingabefeld hinzufügen]]></item>
+    </category>
+
+    <category name="poi.category">
+        <item name="poi.category.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diese Kategorie wirklich löschen? Alle sich in dieser Kategorie befindlichen Unterkategorien werden in die Elternkategorie dieser Kategorie verschoben und POIs, die sich ausschließlich in dieser Kategorie befinden, werden gelöscht.]]></item>
+        <item name="poi.category.categories"><![CDATA[Kategorien]]></item>
+        <item name="poi.category.markAllAsRead"><![CDATA[Alle als gelesen markieren]]></item>
+    </category>
+
+    <category name="poi.image">
+        <item name="poi.image.coverPhoto.upload.limits"><![CDATA[Minimale Bildgröße: {$coverPhotoDimensions.min.width}×{$coverPhotoDimensions.min.height} Pixel<br>Maximale Bildgröße: {$coverPhotoDimensions.max.width}×{$coverPhotoDimensions.max.height} Pixel<br>Erlaubte Dateiendungen: gif, jpg, jpeg, png<br>Maximale Dateigröße: {$__wcf->session->getPermission($coverPhotoPermissionMaxSize)|filesize}]]></item>
+    </category>
+
+    <category name="poi.index">
+        <item name="poi.index.beta.test"><![CDATA[Der Beta-Test ist beendet.]]></item>
+        <item name="poi.index.copyright"><![CDATA[<a href="https://www.zaydowicz.de" rel="nofollow"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>POI: <strong>Points of Interest{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, entwickelt von <strong>zaydowicz.de</strong></a>]]></item>
+        <item name="poi.index.stats"><![CDATA[Statistik]]></item>
+        <item name="poi.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
 <li>{#$stats[authors]} Autor{if $stats[authors] != 1}en{/if}</li>
 <li>{#$stats[pois]} POI{if $stats[pois] != 1}s{/if}</li>
 <li>{#$stats[comments]} Kommentar{if $stats[comments] != 1}e{/if}</li>
 <li>{#$stats[views]} Aufruf{if $stats[views] != 1}e{/if} ({#$stats[viewsPerDay]} Aufruf{if $stats[viewsPerDay] != 1}e{/if} pro Tag)</li>
 </ul>]]></item>
-	</category>
-	
-	<category name="poi.map">
-		<item name="poi.map.controls"><![CDATA[Funktionen]]></item>
-		<item name="poi.map.button.center"><![CDATA[Zentrieren]]></item>
-		<item name="poi.map.button.cleanup"><![CDATA[Aufräumen]]></item>
-		<item name="poi.map.button.filter"><![CDATA[Filtern]]></item>
-		<item name="poi.map.button.filter.reset"><![CDATA[Reset]]></item>
-		<item name="poi.map.button.search"><![CDATA[Suche]]></item>
-		<item name="poi.map.button.route"><![CDATA[Route]]></item>
-		<item name="poi.map.filter"><![CDATA[Filter]]></item>
-		<item name="poi.map.filter.active"><![CDATA[aktiv]]></item>
-		<item name="poi.map.filter.user.placeholder"><![CDATA[Benutzername]]></item>
-		
-		<item name="poi.map.route"><![CDATA[Route]]></item>
-		<item name="poi.map.route.distance"><![CDATA[Entfernung:]]></item>
-		<item name="poi.map.route.error"><![CDATA[Es müssen mindestens 2 Wegpunkte ausgewählt werden.<br>Wegpunkte können über „Ort suchen“ und/oder durch Öffnen des Informationsfensters eines POI in der Karte festgelegt werden.]]></item>
-		<item name="poi.map.route.found"><![CDATA[Route gefunden:]]></item>
-		<item name="poi.map.route.open"><![CDATA[Mit Google Maps öffnen]]></item>
-		<item name="poi.map.route.waypoints"><![CDATA[Wegpunkte:]]></item>
-		
-		<item name="poi.map.search.error.empty"><![CDATA[Es muss ein Ort eingegeben werden.]]></item>
-		<item name="poi.map.search.error.locationNotFound"><![CDATA[Es wurde kein Ort gefunden.]]></item>
-		<item name="poi.map.search.location"><![CDATA[Ort suchen]]></item>
-		<item name="poi.map.search.location.placeholder"><![CDATA[Ort]]></item>
-		<item name="poi.map.search.poi"><![CDATA[POI-Suche]]></item>
-		<item name="poi.map.search.poi.active"><![CDATA[POI-Suche aktiv]]></item>
-	</category>
-	
-	<category name="poi.poi">
-		<item name="poi.poi.add"><![CDATA[POI hinzufügen]]></item>
-		<item name="poi.poi.box.information"><![CDATA[Information]]></item>
-		<item name="poi.poi.box.information.elevation"><![CDATA[Höhe]]></item>
-		<item name="poi.poi.box.information.elevation.value"><![CDATA[{#$poi->elevation} m]]></item>
-		<item name="poi.poi.box.information.latitude"><![CDATA[Länge]]></item>
-		<item name="poi.poi.box.information.latitude.value"><![CDATA[{@$poi->latitude} {if $poi->latitude >= 0}N{else}S{/if}]]></item>
-		<item name="poi.poi.box.information.longitude"><![CDATA[Breite]]></item>
-		<item name="poi.poi.box.information.longitude.value"><![CDATA[{@$poi->longitude} {if $poi->longitude >= 0}E{else}W{/if}]]></item>
-		<item name="poi.poi.box.map"><![CDATA[Ort]]></item>
-		<item name="poi.poi.category"><![CDATA[Kategorie]]></item>
-		<item name="poi.poi.category.map"><![CDATA[Auf der Karte zeigen]]></item>
-		
-		<item name="poi.poi.category.notification.title"><![CDATA[Neuer POI]]></item>
-		<item name="poi.poi.category.notification.message"><![CDATA[<strong>{$author}</strong> hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> erstellt.]]></item>
-		<item name="poi.poi.category.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den POI „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isEmail=true}{/link}] hinzugefügt:]]></item>
-		<item name="poi.poi.category.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> hinzugefügt:</p>]]></item>
-		
-		<item name="poi.poi.notification.title"><![CDATA[POI-Änderung]]></item>
-		<item name="poi.poi.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> geändert.]]></item>
-		<item name="poi.poi.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den POI „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isEmail=true}{/link}] geändert:]]></item>
-		<item name="poi.poi.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> geändert:</p>]]></item>
-		
-		<item name="poi.poi.condition.isFeatured"><![CDATA[Empfohlen]]></item>
-		
-		<item name="poi.poi.bbcode.type"><![CDATA[Point of Interest]]></item>
-		<item name="poi.poi.comment.notification.title"><![CDATA[Neuer Kommentar (POI)]]></item>
-		<item name="poi.poi.comment.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Kommentare (POI)]]></item>
-		<item name="poi.poi.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.comment.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Kommentare zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.comment.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
-		<item name="poi.poi.comment.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
-		<item name="poi.poi.commentResponse.notification.title"><![CDATA[Neue Antwort (POI)]]></item>
-		<item name="poi.poi.commentResponse.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (POI)]]></item>
-		<item name="poi.poi.commentResponse.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.commentResponse.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.commentResponse.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
-		<item name="poi.poi.commentResponse.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.title"><![CDATA[Neue Antwort (POI)]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (POI)]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zum Kommentar von {$commentAuthor->username} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zum Kommentar {if $author->userID}von <a href="{link controller='User' object=$author}{/link}" class="userLink" data-user-id="{@$author->userID}">{$author->username}</a>{else}{$author->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {@$notificationContent[variables][commentAuthor]->username}{if $notificationContent[variables][commentAuthor]->userID} [URL:{link controller='User' object=$notificationContent[variables][commentAuthor] isEmail=true}{/link}]{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
-		<item name="poi.poi.commentResponseOwner.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {if $notificationContent[variables][commentAuthor]->userID}<a href="{link controller='User' object=$notificationContent[variables][commentAuthor] isHtmlEmail=true}{/link}">{$notificationContent[variables][commentAuthor]->username}</a>{else}{$notificationContent[variables][commentAuthor]->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
-		<item name="poi.poi.comment.like.notification.title"><![CDATA[Reaktion auf einen Kommentar (POI)]]></item>
-		<item name="poi.poi.comment.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar reagiert (POI)]]></item>
-		<item name="poi.poi.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.comment.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere Benutzer{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.commentResponse.like.notification.title"><![CDATA[Reaktion auf eine Antwort auf einen Kommentar (POI)]]></item>
-		<item name="poi.poi.commentResponse.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar reagiert (POI)]]></item>
-		<item name="poi.poi.commentResponse.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.commentResponse.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere Benutzer{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.comments"><![CDATA[Kommentare]]></item>
-		<item name="poi.poi.confirmDelete"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen POI wirklich endgültig löschen?]]></item>
-		<item name="poi.poi.confirmTrash"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen POI wirklich löschen?]]></item>
-		<item name="poi.poi.confirmTrash.reason"><![CDATA[Begründung (optional)]]></item>
-		<item name="poi.poi.coordinates.latitude"><![CDATA[{@$degrees}° {@$minutes}' {@$seconds}" {if $reference == 'S'}S{else}N{/if}]]></item>
-		<item name="poi.poi.coordinates.longitude"><![CDATA[{@$degrees}° {@$minutes}' {@$seconds}" {if $reference == 'W'}S{else}E{/if}]]></item>
-		<item name="poi.poi.cumulativeLikes"><![CDATA[Reaktionen]]></item>
-		<item name="poi.poi.download"><![CDATA[Herunterladen]]></item>
-		<item name="poi.poi.edit"><![CDATA[POI bearbeiten]]></item>
-		<item name="poi.poi.edit.delete"><![CDATA[Endgültig löschen]]></item>
-		<item name="poi.poi.edit.disable"><![CDATA[Deaktivieren]]></item>
-		<item name="poi.poi.edit.enable"><![CDATA[Freischalten]]></item>
-		<item name="poi.poi.edit.restore"><![CDATA[Wiederherstellen]]></item>
-		<item name="poi.poi.edit.trash"><![CDATA[Löschen]]></item>
-		<item name="poi.poi.edit.setAsFeatured"><![CDATA[Als „Empfohlen“ markieren]]></item>
-		<item name="poi.poi.edit.unsetAsFeatured"><![CDATA[„Empfohlen“-Markierung entfernen]]></item>
-		<item name="poi.poi.editReason"><![CDATA[Bearbeitungsgrund (optional)]]></item>
-		<item name="poi.poi.enableComments"><![CDATA[Kommentare aktivieren]]></item>
-		<item name="poi.poi.enableComments.description"><![CDATA[Erlaubt anderen Benutzern diesen POI zu kommentieren.]]></item>
-		<item name="poi.poi.featured"><![CDATA[Empfohlen]]></item>
-		<item name="poi.poi.geodata"><![CDATA[Geoinformation]]></item>
-		<item name="poi.poi.geodata.elevation"><![CDATA[Höhe]]></item>
-		<item name="poi.poi.geodata.elevation.description"><![CDATA[Höhe in Metern (optional).]]></item>
-		<item name="poi.poi.geodata.find"><![CDATA[Finden]]></item>
-		<item name="poi.poi.geodata.find.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} die Koordinaten in der Reihenfolge Breite / Länge auch direkt eingeben. Die Eingabe muss dezimal in der Form „xx.xxxx“ erfolgen.]]></item>
-		<item name="poi.poi.geodata.find.error"><![CDATA[Keine gültigen Koordinaten.]]></item>
-		<item name="poi.poi.geodata.keyMissing"><![CDATA[Es konnte kein Google Maps Browser-API-Schlüssel gefunden werden.]]></item>
-		<item name="poi.poi.geodata.location"><![CDATA[Ort]]></item>
-		<item name="poi.poi.geodata.location.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} den Ort ein, um die Suche zu starten, und {if LANGUAGE_USE_INFORMAL_VARIANT}wähle{else}wählen Sie{/if} ein Ergebnis aus den Vorschlägen aus. Alternativ kann der Marker in der Karte auf den gewünschten Ort gezogen werden.]]></item>
-		<item name="poi.poi.hasOldVersions"><![CDATA[Ältere Versionen]]></item>
-		
-		<item name="poi.poi.import"><![CDATA[POIs importieren]]></item>
-		<item name="poi.poi.import.description"><![CDATA[Unterstützt den Import von POIs aus GPX-Dateien. Dabei erfolgen Reverse Geocoding-Anfragen. Es können maximal 5 POIs importiert werden.]]></item>
-		<item name="poi.poi.import.description.default"><![CDATA[Beschreibung]]></item>
-		<item name="poi.poi.import.button"><![CDATA[Importieren]]></item>
-		<item name="poi.poi.import.subject.default"><![CDATA[Titel]]></item>
-		<item name="poi.poi.import.success"><![CDATA[Es wurde{if $success != 1}n{/if} {#$success} POI{if $success != 1}s{/if} importiert.{if $fail} Es gab {#$fail} Fehlerversuch{if $fail != 1}e{/if}.{/if}]]></item>
-		<item name="poi.poi.import.teaser.default"><![CDATA[Kurzbeschreibung]]></item>
-		<item name="poi.poi.import.upload"><![CDATA[Datei hochladen]]></item>
-		<item name="poi.poi.import.upload.error.poi"><![CDATA[Die Datei enthält keine POIs.]]></item>
-		<item name="poi.poi.import.upload.error.uploadFailed"><![CDATA[Das Hochladen der Datei ist fehlgeschlagen.]]></item>
-		
-		<item name="poi.poi.information"><![CDATA[Allgemein]]></item>
-		<item name="poi.poi.like.notification.title"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI]]></item>
-		<item name="poi.poi.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI reagiert]]></item>
-		<item name="poi.poi.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
-		<item name="poi.poi.message"><![CDATA[Beschreibung]]></item>
-		<item name="poi.poi.moderation.info"><![CDATA[Neu hinzugefügte POIs unterliegen der Moderation und werden erst sichtbar, wenn sie durch einen Moderator geprüft und freigeschaltet wurden.]]></item>
-		<item name="poi.poi.moderation.disabledPoi"><![CDATA[Dieser POI muss zunächst von einem Moderator geprüft und freigeschaltet werden, damit er für alle Benutzer sichtbar wird.]]></item>
-		<item name="poi.poi.morePois"><![CDATA[Weitere POIs]]></item>
-		<item name="poi.poi.morePois.all"><![CDATA[Alle POIs]]></item>
-		<item name="poi.poi.morePois.user"><![CDATA[Weitere POIs von {$poi->username}]]></item>
-		<item name="poi.poi.new"><![CDATA[Neu]]></item>
-		<item name="poi.poi.open.google"><![CDATA[In Google Maps anzeigen]]></item>
-		
-		<item name="poi.poi.options"><![CDATA[Eingabefelder]]></item>
-		<item name="poi.poi.poi"><![CDATA[POI]]></item>
-		<item name="poi.poi.pois"><![CDATA[POIs]]></item>
-		<item name="poi.poi.poiComments"><![CDATA[{@$poi->comments|shortUnit} Kommentar{if $poi->comments != 1}e{/if}]]></item>
-		<item name="poi.poi.random"><![CDATA[zufällig]]></item>
-		<item name="poi.poi.recentActivity.likedPoi"><![CDATA[Hat mit <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> auf den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
-		<item name="poi.poi.recentActivity.poi"><![CDATA[Hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> hinzugefügt.]]></item>
-		<item name="poi.poi.recentActivity.poiComment"><![CDATA[Hat einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}#comments/comment{@$commentID}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> geschrieben.]]></item>
-		<item name="poi.poi.recentActivity.poiCommentResponse"><![CDATA[Hat auf einen Kommentar von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> zum POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}#comments/comment{@$commentID}/response{@$responseID}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> geantwortet.]]></item>
-		<item name="poi.poi.show.all"><![CDATA[Alle POIs zeigen]]></item>
-		<item name="poi.poi.sort"><![CDATA[Sortieren]]></item>
-		<item name="poi.poi.sort.comments"><![CDATA[Kommentare]]></item>
-		<item name="poi.poi.sort.cumulativeLikes"><![CDATA[Reaktionen]]></item>
-		<item name="poi.poi.sort.lastChangeTime"><![CDATA[Letzte Änderung]]></item>
-		<item name="poi.poi.sort.subject"><![CDATA[Titel]]></item>
-		<item name="poi.poi.sort.username"><![CDATA[Benutzername]]></item>
-		<item name="poi.poi.sort.views"><![CDATA[Aufrufe]]></item>
-		<item name="poi.poi.sort.visits"><![CDATA[Besuche]]></item>
-		<item name="poi.poi.teaser"><![CDATA[Teaser]]></item>
-		<item name="poi.poi.teaser.description"><![CDATA[Eine kurze und prägnante Beschreibung {if LANGUAGE_USE_INFORMAL_VARIANT}deines{else}Ihres{/if} POI, die in der POI-Liste und Karte angezeigt wird. Sie darf maximal {#POI_MAX_TEASER_LENGTH} Zeichen lang sein.]]></item>
-		<item name="poi.poi.time"><![CDATA[Letzte Änderung]]></item>
-		<item name="poi.poi.userPois"><![CDATA[POIs von {$user->username}]]></item>
-		<item name="poi.poi.userCount"><![CDATA[{#$activeAuthor->poiPois} POI{if $activeAuthor->poiPois != 1}s{/if}]]></item>
-		<item name="poi.poi.views"><![CDATA[{@$poi->views|shortUnit} Aufruf{if $poi->views != 1}e{/if}]]></item>
-		<item name="poi.poi.visits"><![CDATA[{@$poi->visits|shortUnit} Besuch{if $poi->visits != 1}e{/if}]]></item>
-		
-		<item name="poi.poi.visit.dialog.title"><![CDATA[Besuch verwalten]]></item>
-		<item name="poi.poi.visit.manage"><![CDATA[Besuch verwalten]]></item>
-		<item name="poi.poi.visit.success"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Besuch wurde erfolgreich gespeichert.]]></item>
-		<item name="poi.poi.visit.visited"><![CDATA[Ich habe den POI besucht]]></item>
-		<item name="poi.poi.visit.visited.time"><![CDATA[Zeit]]></item>
-		<item name="poi.poi.visit.visited.time.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier die Zeit des Besuchs an.]]></item>
-		<item name="poi.poi.visit.visitors"><![CDATA[Besucher]]></item>
-		<item name="poi.poi.visit.visitors.ex"><![CDATA[Insgesamt {@$visits} {if $visits == 1}Besucher{else}Besucher{/if}{if $diff}, davon {@$diff} nicht mehr {if $diff == 1}registrierter Benutzer{else}registrierte Benutzer{/if}{/if}.]]></item>
-		<item name="poi.poi.visit.visits"><![CDATA[Besuche]]></item>
-		<item name="poi.poi.visit.visits.value"><![CDATA[{@$poi->visits}]]></item>
-		
-		<item name="poi.poi.watchedPois"><![CDATA[Abonnierte POIs]]></item>
-		<item name="poi.poi.watchedPois.stopWatchingAll"><![CDATA[Alle POIs abbestellen]]></item>
-		<item name="poi.poi.watchedPois.stopWatchingAll.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle POIs abbestellen?]]></item>
-		<item name="poi.poi.watchedPois.stopWatchingMarked"><![CDATA[{literal}{if $count > 1}Markierte POIs{else}Markierten POI{/if} abbestellen{if $count > 1} ({#$count}){/if}{/literal}]]></item>
-		<item name="poi.poi.watchedPois.stopWatchingMarked.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle markierten POIs abbestellen?]]></item>
-		
-	</category>
-	
-	<category name="poi.poi.log">
-		<item name="poi.poi.log"><![CDATA[Änderungsprotokoll]]></item>
-		<item name="poi.poi.log.noEntries"><![CDATA[Es wurden keine Änderungen für diesen POI protokolliert.]]></item>
-		<item name="poi.poi.log.poi.trash.summary"><![CDATA[POI wurde von {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if} {if $additionalData[reason]}aus folgendem Grund gelöscht: {$additionalData[reason]}{else}gelöscht.{/if} ({@$time|time})]]></item>
-		<item name="poi.poi.log.poi.trash.summary.js"><![CDATA[POI wurde von <a href="{link controller='User' id=$__wcf->user->userID title=$__wcf->user->username}{/link}" class="userLink" data-user-id="{@$__wcf->user->userID}">{$__wcf->user->username}</a> gelöscht. ({@TIME_NOW|time})]]></item>
-		<item name="poi.poi.log.poi.delete"><![CDATA[Hat den POI gelöscht]]></item>
-		<item name="poi.poi.log.poi.disable"><![CDATA[Hat den POI deaktiviert]]></item>
-		<item name="poi.poi.log.poi.enable"><![CDATA[Hat den POI freigeschaltet]]></item>
-		<item name="poi.poi.log.poi.restore"><![CDATA[Hat den POI wiederhergestellt]]></item>
-		<item name="poi.poi.log.poi.setAsFeatured"><![CDATA[Hat den POI als „Empfohlen“ markiert]]></item>
-		<item name="poi.poi.log.poi.trash"><![CDATA[Hat den POI {if $additionalData[reason]}mit der Begründung „{$additionalData[reason]}“ {/if}in den Papierkorb verschoben]]></item>
-		<item name="poi.poi.log.poi.edit"><![CDATA[Hat den POI bearbeitet]]></item>
-		<item name="poi.poi.log.poi.unsetAsFeatured"><![CDATA[Hat die „Empfohlen“-Markierung für den POI entfernt]]></item>
-	</category>
-	
-	<category name="poi.search">
-		<item name="poi.search.categories"><![CDATA[Folgende Kategorien durchsuchen]]></item>
-	</category>
-	
-	<category name="wcf.user.condition">
-		<item name="wcf.user.condition.poiPois"><![CDATA[POIs]]></item>
-	</category>
-	
-	<category name="wcf.clipboard">
-		<item name="wcf.clipboard.label.com.uz.poi.poi.marked"><![CDATA[{if $count == 1}Ein POI{else}{#$count} POIs{/if}]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.trash.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten POIs{else}diesen POI{/if} wirklich löschen?]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten POIs{else}diesen POI{/if} wirklich endgültig löschen?]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.trash"><![CDATA[Löschen ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.enable"><![CDATA[Freischalten ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.disable"><![CDATA[Deaktivieren ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.delete"><![CDATA[Endgültig löschen ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.uz.poi.poi.restore"><![CDATA[Wiederherstellen ({#$count})]]></item>
-	</category>
-	
-	<category name="wcf.like">
-		<item name="wcf.like.objectType.com.uz.poi.likeablePoi"><![CDATA[POI]]></item>
-		<item name="wcf.like.title.com.uz.poi.poiComment"><![CDATA[Hat mit {@$like->render()} auf den Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum POI <a href="{$comment->getLink()}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
-		<item name="wcf.like.title.com.uz.poi.poiComment.response"><![CDATA[Hat mit {@$like->render()} auf die Antwort {if $responseAuthor}von <a href="{link controller='User' object=$responseAuthor}{/link}">{$responseAuthor->username}</a>{else}eines Gasts{/if} zum Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum POI <a href="{$response->getLink()}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
-		<item name="wcf.like.title.com.uz.poi.likeablePoi"><![CDATA[Hat mit {@$like->render()} auf den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
-	</category>
-	
-	<category name="wcf.moderation">
-		<item name="wcf.moderation.type.com.uz.poi.poi"><![CDATA[POI]]></item>
-		<item name="wcf.moderation.deletedContent.com.uz.poi.poi"><![CDATA[Gelöschte POIs]]></item>
-		<item name="wcf.moderation.deletedContent.objectType.com.uz.poi.poi"><![CDATA[POIs]]></item>
-	</category>
-	
-	<category name="wcf.page">
-		<item name="wcf.page.onlineLocation.com.uz.poi.Poi"><![CDATA[POI <a href="{link controller='Poi' application='poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a>]]></item>
-		<item name="wcf.page.onlineLocation.com.uz.poi.CategoryPoiList"><![CDATA[POI-Kategorie <a href="{$category->getLink()}">{$category->getTitle()}</a>]]></item>
-		<item name="wcf.page.onlineLocation.com.uz.poi.UserPoiList"><![CDATA[<a href="{link controller='UserPoiList' application='poi' object=$user}{/link}">POIs von {$user->username}</a>]]></item>
-	</category>
-	
-	<category name="wcf.search">
-		<item name="wcf.search.object.com.uz.poi.poi"><![CDATA[POI]]></item>
-		<item name="wcf.search.type.com.uz.poi.poi"><![CDATA[POIs]]></item>
-	</category>
-	
-	<category name="wcf.tagging">
-		<item name="wcf.tagging.combinedTaggedObjects.com.uz.poi.poi"><![CDATA[POIs mit den Tags]]></item>
-		<item name="wcf.tagging.objectType.com.uz.poi.poi"><![CDATA[POIs]]></item>
-		<item name="wcf.tagging.taggedObjects.com.uz.poi.poi"><![CDATA[POIs mit dem Tag „{$tag->name}“]]></item>
-	</category>
-	
-	<category name="wcf.user">
-		<item name="wcf.user.activityPoint.objectType.com.uz.poi.activityPointEvent.poi"><![CDATA[POIs]]></item>
-		<item name="wcf.user.sortField.poiPois"><![CDATA[POIs]]></item>
-	</category>
-	
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.com.uz.poi"><![CDATA[POI]]></item>
-		<item name="wcf.user.notification.com.uz.poi.likeablePoi.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poi.notification.category"><![CDATA[Neuer POI in einer abonnierten Kategorie]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poi.notification.poi"><![CDATA[Ein abonnierter POI wurde geändert]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poiComment.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poiComment.notification.comment"><![CDATA[Neuer Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poiComment.response.notification.commentResponse"><![CDATA[Neue Antwort auf einen Kommentar von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if}]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poiComment.response.notification.commentResponseOwner"><![CDATA[Neue Antwort auf einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI]]></item>
-		<item name="wcf.user.notification.com.uz.poi.poiComment.response.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar]]></item>
-	</category>
-	
-	<category name="wcf.user.objectWatch">
-		<item name="wcf.user.objectWatch.subscribe.com.uz.poi.category"><![CDATA[Kategorie abonnieren]]></item>
-		<item name="wcf.user.objectWatch.subscribe.com.uz.poi.poi"><![CDATA[POI abonnieren]]></item>
-		<item name="wcf.user.objectWatch.enableNotification.com.uz.poi.category"><![CDATA[Benachrichtigung über neue POIs in dieser Kategorie aktivieren]]></item>
-		<item name="wcf.user.objectWatch.enableNotification.com.uz.poi.poi"><![CDATA[Benachrichtigung über Änderungen dieses POIs aktivieren.]]></item>
-		<item name="wcf.user.objectWatch.unsubscribe.com.uz.poi.category"><![CDATA[Kategorie nicht abonnieren]]></item>
-		<item name="wcf.user.objectWatch.unsubscribe.com.uz.poi.poi"><![CDATA[POI nicht abonnieren]]></item>
-	</category>
-	
-	<category name="wcf.user.recentActivity">
-		<item name="wcf.user.recentActivity.com.uz.poi.likeablePoi.recentActivityEvent"><![CDATA[Reaktion (POI)]]></item>
-		<item name="wcf.user.recentActivity.com.uz.poi.poiComment.response.recentActivityEvent"><![CDATA[Antwort (POI)]]></item>
-		<item name="wcf.user.recentActivity.com.uz.poi.poiComment.recentActivityEvent"><![CDATA[Kommentar (POI)]]></item>
-		<item name="wcf.user.recentActivity.com.uz.poi.recentActivityEvent.poi"><![CDATA[POI]]></item>
-	</category>
+    </category>
+
+    <category name="poi.map">
+        <item name="poi.map.controls"><![CDATA[Funktionen]]></item>
+        <item name="poi.map.button.center"><![CDATA[Zentrieren]]></item>
+        <item name="poi.map.button.cleanup"><![CDATA[Aufräumen]]></item>
+        <item name="poi.map.button.filter"><![CDATA[Filtern]]></item>
+        <item name="poi.map.button.filter.reset"><![CDATA[Reset]]></item>
+        <item name="poi.map.button.search"><![CDATA[Suche]]></item>
+        <item name="poi.map.button.route"><![CDATA[Route]]></item>
+        <item name="poi.map.filter"><![CDATA[Filter]]></item>
+        <item name="poi.map.filter.active"><![CDATA[aktiv]]></item>
+        <item name="poi.map.filter.user.placeholder"><![CDATA[Benutzername]]></item>
+
+        <item name="poi.map.route"><![CDATA[Route]]></item>
+        <item name="poi.map.route.distance"><![CDATA[Entfernung:]]></item>
+        <item name="poi.map.route.error"><![CDATA[Es müssen mindestens 2 Wegpunkte ausgewählt werden.<br>Wegpunkte können über „Ort suchen“ und/oder durch Öffnen des Informationsfensters eines POI in der Karte festgelegt werden.]]></item>
+        <item name="poi.map.route.found"><![CDATA[Route gefunden:]]></item>
+        <item name="poi.map.route.open"><![CDATA[Mit Google Maps öffnen]]></item>
+        <item name="poi.map.route.waypoints"><![CDATA[Wegpunkte:]]></item>
+
+        <item name="poi.map.search.error.empty"><![CDATA[Es muss ein Ort eingegeben werden.]]></item>
+        <item name="poi.map.search.error.locationNotFound"><![CDATA[Es wurde kein Ort gefunden.]]></item>
+        <item name="poi.map.search.location"><![CDATA[Ort suchen]]></item>
+        <item name="poi.map.search.location.placeholder"><![CDATA[Ort]]></item>
+        <item name="poi.map.search.poi"><![CDATA[POI-Suche]]></item>
+        <item name="poi.map.search.poi.active"><![CDATA[POI-Suche aktiv]]></item>
+    </category>
+
+    <category name="poi.poi">
+        <item name="poi.poi.add"><![CDATA[POI hinzufügen]]></item>
+        <item name="poi.poi.box.information"><![CDATA[Information]]></item>
+        <item name="poi.poi.box.information.elevation"><![CDATA[Höhe]]></item>
+        <item name="poi.poi.box.information.elevation.value"><![CDATA[{#$poi->elevation} m]]></item>
+        <item name="poi.poi.box.information.latitude"><![CDATA[Länge]]></item>
+        <item name="poi.poi.box.information.latitude.value"><![CDATA[{@$poi->latitude} {if $poi->latitude >= 0}N{else}S{/if}]]></item>
+        <item name="poi.poi.box.information.longitude"><![CDATA[Breite]]></item>
+        <item name="poi.poi.box.information.longitude.value"><![CDATA[{@$poi->longitude} {if $poi->longitude >= 0}E{else}W{/if}]]></item>
+        <item name="poi.poi.box.map"><![CDATA[Ort]]></item>
+        <item name="poi.poi.category"><![CDATA[Kategorie]]></item>
+        <item name="poi.poi.category.map"><![CDATA[Auf der Karte zeigen]]></item>
+
+        <item name="poi.poi.category.notification.title"><![CDATA[Neuer POI]]></item>
+        <item name="poi.poi.category.notification.message"><![CDATA[<strong>{$author}</strong> hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> erstellt.]]></item>
+        <item name="poi.poi.category.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den POI „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isEmail=true}{/link}] hinzugefügt:]]></item>
+        <item name="poi.poi.category.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> hinzugefügt:</p>]]></item>
+
+        <item name="poi.poi.notification.title"><![CDATA[POI-Änderung]]></item>
+        <item name="poi.poi.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> geändert.]]></item>
+        <item name="poi.poi.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}ein Gast{/if} hat den POI „{@$event->getUserNotificationObject()->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isEmail=true}{/link}] geändert:]]></item>
+        <item name="poi.poi.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}ein Gast{/if} hat den POI <a href="{link application='poi' controller='Poi' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getSubject()}</a> geändert:</p>]]></item>
+
+        <item name="poi.poi.condition.isFeatured"><![CDATA[Empfohlen]]></item>
+
+        <item name="poi.poi.bbcode.type"><![CDATA[Point of Interest]]></item>
+        <item name="poi.poi.comment.notification.title"><![CDATA[Neuer Kommentar (POI)]]></item>
+        <item name="poi.poi.comment.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Kommentare (POI)]]></item>
+        <item name="poi.poi.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.comment.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Kommentare zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.comment.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+        <item name="poi.poi.comment.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat einen Kommentar{else}haben Kommentare{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
+        <item name="poi.poi.commentResponse.notification.title"><![CDATA[Neue Antwort (POI)]]></item>
+        <item name="poi.poi.commentResponse.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (POI)]]></item>
+        <item name="poi.poi.commentResponse.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.commentResponse.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.commentResponse.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+        <item name="poi.poi.commentResponse.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.title"><![CDATA[Neue Antwort (POI)]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.title.stacked"><![CDATA[{#$timesTriggered} neue Antworten (POI)]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Ein Gast{/if} hat eine Antwort zum Kommentar von {$commentAuthor->username} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count != 1}{if $count == 2 && !$guestTimesTriggered} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3}{if !$guestTimesTriggered} und {else}, {/if} {@$authors[2]->getAnchorTag()}{/if}{/if}{if $guestTimesTriggered} und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{else}{@$authors[0]->getAnchorTag()}{if $guestTimesTriggered},{else} und{/if} {#$others} weitere Benutzer {if $guestTimesTriggered}und {if $guestTimesTriggered == 1}ein Gast{else}Gäste{/if}{/if}{/if} haben Antworten zum Kommentar {if $author->userID}von <a href="{link controller='User' object=$author}{/link}" class="userLink" data-user-id="{@$author->userID}">{$author->username}</a>{else}{$author->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> verfasst.]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.mail.plaintext"><![CDATA[{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {@$notificationContent[variables][commentAuthor]->username}{if $notificationContent[variables][commentAuthor]->userID} [URL:{link controller='User' object=$notificationContent[variables][commentAuthor] isEmail=true}{/link}]{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI „{@$poi->getSubject()}“ [URL:{link application='poi' controller='Poi' object=$poi isEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}] verfasst{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+        <item name="poi.poi.commentResponseOwner.notification.mail.html"><![CDATA[<p>{@$authorList} {if $count == 1 && $guestTimesTriggered < 2 && (!$event->getAuthor()->userID || $guestTimesTriggered == 0)}hat eine Antwort{else}haben Antworten{/if} zum Kommentar von {if $notificationContent[variables][commentAuthor]->userID}<a href="{link controller='User' object=$notificationContent[variables][commentAuthor] isHtmlEmail=true}{/link}">{$notificationContent[variables][commentAuthor]->username}</a>{else}{$notificationContent[variables][commentAuthor]->username}{/if} zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI <a href="{link application='poi' controller='Poi' object=$poi isHtmlEmail=true}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> verfasst:</p>]]></item>
+        <item name="poi.poi.comment.like.notification.title"><![CDATA[Reaktion auf einen Kommentar (POI)]]></item>
+        <item name="poi.poi.comment.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar reagiert (POI)]]></item>
+        <item name="poi.poi.comment.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.comment.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere Benutzer{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.commentResponse.like.notification.title"><![CDATA[Reaktion auf eine Antwort auf einen Kommentar (POI)]]></item>
+        <item name="poi.poi.commentResponse.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar reagiert (POI)]]></item>
+        <item name="poi.poi.commentResponse.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.commentResponse.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere Benutzer{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}#comments/comment{@$commentID}/response{@$responseID}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.comments"><![CDATA[Kommentare]]></item>
+        <item name="poi.poi.confirmDelete"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen POI wirklich endgültig löschen?]]></item>
+        <item name="poi.poi.confirmTrash"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen POI wirklich löschen?]]></item>
+        <item name="poi.poi.confirmTrash.reason"><![CDATA[Begründung (optional)]]></item>
+        <item name="poi.poi.coordinates.latitude"><![CDATA[{@$degrees}° {@$minutes}' {@$seconds}" {if $reference == 'S'}S{else}N{/if}]]></item>
+        <item name="poi.poi.coordinates.longitude"><![CDATA[{@$degrees}° {@$minutes}' {@$seconds}" {if $reference == 'W'}S{else}E{/if}]]></item>
+        <item name="poi.poi.cumulativeLikes"><![CDATA[Reaktionen]]></item>
+        <item name="poi.poi.download"><![CDATA[Herunterladen]]></item>
+        <item name="poi.poi.edit"><![CDATA[POI bearbeiten]]></item>
+        <item name="poi.poi.edit.delete"><![CDATA[Endgültig löschen]]></item>
+        <item name="poi.poi.edit.disable"><![CDATA[Deaktivieren]]></item>
+        <item name="poi.poi.edit.enable"><![CDATA[Freischalten]]></item>
+        <item name="poi.poi.edit.restore"><![CDATA[Wiederherstellen]]></item>
+        <item name="poi.poi.edit.trash"><![CDATA[Löschen]]></item>
+        <item name="poi.poi.edit.setAsFeatured"><![CDATA[Als „Empfohlen“ markieren]]></item>
+        <item name="poi.poi.edit.unsetAsFeatured"><![CDATA[„Empfohlen“-Markierung entfernen]]></item>
+        <item name="poi.poi.editReason"><![CDATA[Bearbeitungsgrund (optional)]]></item>
+        <item name="poi.poi.enableComments"><![CDATA[Kommentare aktivieren]]></item>
+        <item name="poi.poi.enableComments.description"><![CDATA[Erlaubt anderen Benutzern diesen POI zu kommentieren.]]></item>
+        <item name="poi.poi.featured"><![CDATA[Empfohlen]]></item>
+        <item name="poi.poi.geodata"><![CDATA[Geoinformation]]></item>
+        <item name="poi.poi.geodata.elevation"><![CDATA[Höhe]]></item>
+        <item name="poi.poi.geodata.elevation.description"><![CDATA[Höhe in Metern (optional).]]></item>
+        <item name="poi.poi.geodata.find"><![CDATA[Finden]]></item>
+        <item name="poi.poi.geodata.find.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du kannst{else}Sie können{/if} die Koordinaten in der Reihenfolge Breite / Länge auch direkt eingeben. Die Eingabe muss dezimal in der Form „xx.xxxx“ erfolgen.]]></item>
+        <item name="poi.poi.geodata.find.error"><![CDATA[Keine gültigen Koordinaten.]]></item>
+        <item name="poi.poi.geodata.keyMissing"><![CDATA[Es konnte kein Google Maps Browser-API-Schlüssel gefunden werden.]]></item>
+        <item name="poi.poi.geodata.location"><![CDATA[Ort]]></item>
+        <item name="poi.poi.geodata.location.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} den Ort ein, um die Suche zu starten, und {if LANGUAGE_USE_INFORMAL_VARIANT}wähle{else}wählen Sie{/if} ein Ergebnis aus den Vorschlägen aus. Alternativ kann der Marker in der Karte auf den gewünschten Ort gezogen werden.]]></item>
+        <item name="poi.poi.hasOldVersions"><![CDATA[Ältere Versionen]]></item>
+
+        <item name="poi.poi.import"><![CDATA[POIs importieren]]></item>
+        <item name="poi.poi.import.description"><![CDATA[Unterstützt den Import von POIs aus GPX-Dateien. Dabei erfolgen Reverse Geocoding-Anfragen. Es können maximal 5 POIs importiert werden.]]></item>
+        <item name="poi.poi.import.description.default"><![CDATA[Beschreibung]]></item>
+        <item name="poi.poi.import.button"><![CDATA[Importieren]]></item>
+        <item name="poi.poi.import.subject.default"><![CDATA[Titel]]></item>
+        <item name="poi.poi.import.success"><![CDATA[Es wurde{if $success != 1}n{/if} {#$success} POI{if $success != 1}s{/if} importiert.{if $fail} Es gab {#$fail} Fehlerversuch{if $fail != 1}e{/if}.{/if}]]></item>
+        <item name="poi.poi.import.teaser.default"><![CDATA[Kurzbeschreibung]]></item>
+        <item name="poi.poi.import.upload"><![CDATA[Datei hochladen]]></item>
+        <item name="poi.poi.import.upload.error.poi"><![CDATA[Die Datei enthält keine POIs.]]></item>
+        <item name="poi.poi.import.upload.error.uploadFailed"><![CDATA[Das Hochladen der Datei ist fehlgeschlagen.]]></item>
+
+        <item name="poi.poi.information"><![CDATA[Allgemein]]></item>
+        <item name="poi.poi.like.notification.title"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI]]></item>
+        <item name="poi.poi.like.notification.title.stacked"><![CDATA[{#$count} Benutzer haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI reagiert]]></item>
+        <item name="poi.poi.like.notification.message"><![CDATA[<strong>{$author}</strong> hat auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.like.notification.message.stacked"><![CDATA[{if $count < 4}{@$authors[0]->getAnchorTag()}{if $count == 2} und {else}, {/if}{@$authors[1]->getAnchorTag()}{if $count == 3} und {@$authors[2]->getAnchorTag()}{/if}{else}{@$authors[0]->getAnchorTag()} und {#$others} weitere{/if} haben auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}">{$poi->getSubject()}</a> reagiert ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+        <item name="poi.poi.message"><![CDATA[Beschreibung]]></item>
+        <item name="poi.poi.moderation.info"><![CDATA[Neu hinzugefügte POIs unterliegen der Moderation und werden erst sichtbar, wenn sie durch einen Moderator geprüft und freigeschaltet wurden.]]></item>
+        <item name="poi.poi.moderation.disabledPoi"><![CDATA[Dieser POI muss zunächst von einem Moderator geprüft und freigeschaltet werden, damit er für alle Benutzer sichtbar wird.]]></item>
+        <item name="poi.poi.morePois"><![CDATA[Weitere POIs]]></item>
+        <item name="poi.poi.morePois.all"><![CDATA[Alle POIs]]></item>
+        <item name="poi.poi.morePois.user"><![CDATA[Weitere POIs von {$poi->username}]]></item>
+        <item name="poi.poi.new"><![CDATA[Neu]]></item>
+        <item name="poi.poi.open.google"><![CDATA[In Google Maps anzeigen]]></item>
+
+        <item name="poi.poi.options"><![CDATA[Eingabefelder]]></item>
+        <item name="poi.poi.poi"><![CDATA[POI]]></item>
+        <item name="poi.poi.pois"><![CDATA[POIs]]></item>
+        <item name="poi.poi.poiComments"><![CDATA[{@$poi->comments|shortUnit} Kommentar{if $poi->comments != 1}e{/if}]]></item>
+        <item name="poi.poi.random"><![CDATA[zufällig]]></item>
+        <item name="poi.poi.recentActivity.likedPoi"><![CDATA[Hat mit <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> auf den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
+        <item name="poi.poi.recentActivity.poi"><![CDATA[Hat den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> hinzugefügt.]]></item>
+        <item name="poi.poi.recentActivity.poiComment"><![CDATA[Hat einen Kommentar zum POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}#comments/comment{@$commentID}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> geschrieben.]]></item>
+        <item name="poi.poi.recentActivity.poiCommentResponse"><![CDATA[Hat auf einen Kommentar von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> zum POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}#comments/comment{@$commentID}/response{@$responseID}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> geantwortet.]]></item>
+        <item name="poi.poi.show.all"><![CDATA[Alle POIs zeigen]]></item>
+        <item name="poi.poi.sort"><![CDATA[Sortieren]]></item>
+        <item name="poi.poi.sort.comments"><![CDATA[Kommentare]]></item>
+        <item name="poi.poi.sort.cumulativeLikes"><![CDATA[Reaktionen]]></item>
+        <item name="poi.poi.sort.lastChangeTime"><![CDATA[Letzte Änderung]]></item>
+        <item name="poi.poi.sort.subject"><![CDATA[Titel]]></item>
+        <item name="poi.poi.sort.username"><![CDATA[Benutzername]]></item>
+        <item name="poi.poi.sort.views"><![CDATA[Aufrufe]]></item>
+        <item name="poi.poi.sort.visits"><![CDATA[Besuche]]></item>
+        <item name="poi.poi.teaser"><![CDATA[Teaser]]></item>
+        <item name="poi.poi.teaser.description"><![CDATA[Eine kurze und prägnante Beschreibung {if LANGUAGE_USE_INFORMAL_VARIANT}deines{else}Ihres{/if} POI, die in der POI-Liste und Karte angezeigt wird. Sie darf maximal {#POI_MAX_TEASER_LENGTH} Zeichen lang sein.]]></item>
+        <item name="poi.poi.time"><![CDATA[Letzte Änderung]]></item>
+        <item name="poi.poi.userPois"><![CDATA[POIs von {$user->username}]]></item>
+        <item name="poi.poi.userCount"><![CDATA[{#$activeAuthor->poiPois} POI{if $activeAuthor->poiPois != 1}s{/if}]]></item>
+        <item name="poi.poi.views"><![CDATA[{@$poi->views|shortUnit} Aufruf{if $poi->views != 1}e{/if}]]></item>
+        <item name="poi.poi.visits"><![CDATA[{@$poi->visits|shortUnit} Besuch{if $poi->visits != 1}e{/if}]]></item>
+
+        <item name="poi.poi.visit.dialog.title"><![CDATA[Besuch verwalten]]></item>
+        <item name="poi.poi.visit.manage"><![CDATA[Besuch verwalten]]></item>
+        <item name="poi.poi.visit.success"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Besuch wurde erfolgreich gespeichert.]]></item>
+        <item name="poi.poi.visit.visited"><![CDATA[Ich habe den POI besucht]]></item>
+        <item name="poi.poi.visit.visited.time"><![CDATA[Zeit]]></item>
+        <item name="poi.poi.visit.visited.time.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier die Zeit des Besuchs an.]]></item>
+        <item name="poi.poi.visit.visitors"><![CDATA[Besucher]]></item>
+        <item name="poi.poi.visit.visitors.ex"><![CDATA[Insgesamt {@$visits} {if $visits == 1}Besucher{else}Besucher{/if}{if $diff}, davon {@$diff} nicht mehr {if $diff == 1}registrierter Benutzer{else}registrierte Benutzer{/if}{/if}.]]></item>
+        <item name="poi.poi.visit.visits"><![CDATA[Besuche]]></item>
+        <item name="poi.poi.visit.visits.value"><![CDATA[{@$poi->visits}]]></item>
+
+        <item name="poi.poi.watchedPois"><![CDATA[Abonnierte POIs]]></item>
+        <item name="poi.poi.watchedPois.stopWatchingAll"><![CDATA[Alle POIs abbestellen]]></item>
+        <item name="poi.poi.watchedPois.stopWatchingAll.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle POIs abbestellen?]]></item>
+        <item name="poi.poi.watchedPois.stopWatchingMarked"><![CDATA[{literal}{if $count > 1}Markierte POIs{else}Markierten POI{/if} abbestellen{if $count > 1} ({#$count}){/if}{/literal}]]></item>
+        <item name="poi.poi.watchedPois.stopWatchingMarked.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} wirklich alle markierten POIs abbestellen?]]></item>
+
+    </category>
+
+    <category name="poi.poi.log">
+        <item name="poi.poi.log"><![CDATA[Änderungsprotokoll]]></item>
+        <item name="poi.poi.log.noEntries"><![CDATA[Es wurden keine Änderungen für diesen POI protokolliert.]]></item>
+        <item name="poi.poi.log.poi.trash.summary"><![CDATA[POI wurde von {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if} {if $additionalData[reason]}aus folgendem Grund gelöscht: {$additionalData[reason]}{else}gelöscht.{/if} ({@$time|time})]]></item>
+        <item name="poi.poi.log.poi.trash.summary.js"><![CDATA[POI wurde von <a href="{link controller='User' id=$__wcf->user->userID title=$__wcf->user->username}{/link}" class="userLink" data-user-id="{@$__wcf->user->userID}">{$__wcf->user->username}</a> gelöscht. ({@TIME_NOW|time})]]></item>
+        <item name="poi.poi.log.poi.delete"><![CDATA[Hat den POI gelöscht]]></item>
+        <item name="poi.poi.log.poi.disable"><![CDATA[Hat den POI deaktiviert]]></item>
+        <item name="poi.poi.log.poi.enable"><![CDATA[Hat den POI freigeschaltet]]></item>
+        <item name="poi.poi.log.poi.restore"><![CDATA[Hat den POI wiederhergestellt]]></item>
+        <item name="poi.poi.log.poi.setAsFeatured"><![CDATA[Hat den POI als „Empfohlen“ markiert]]></item>
+        <item name="poi.poi.log.poi.trash"><![CDATA[Hat den POI {if $additionalData[reason]}mit der Begründung „{$additionalData[reason]}“ {/if}in den Papierkorb verschoben]]></item>
+        <item name="poi.poi.log.poi.edit"><![CDATA[Hat den POI bearbeitet]]></item>
+        <item name="poi.poi.log.poi.unsetAsFeatured"><![CDATA[Hat die „Empfohlen“-Markierung für den POI entfernt]]></item>
+    </category>
+
+    <category name="poi.search">
+        <item name="poi.search.categories"><![CDATA[Folgende Kategorien durchsuchen]]></item>
+    </category>
+
+    <category name="wcf.user.condition">
+        <item name="wcf.user.condition.poiPois"><![CDATA[POIs]]></item>
+    </category>
+
+    <category name="wcf.clipboard">
+        <item name="wcf.clipboard.label.com.uz.poi.poi.marked"><![CDATA[{if $count == 1}Ein POI{else}{#$count} POIs{/if}]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.trash.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten POIs{else}diesen POI{/if} wirklich löschen?]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.delete.confirmMessage"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} {if $count != 1}die markierten POIs{else}diesen POI{/if} wirklich endgültig löschen?]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.trash"><![CDATA[Löschen ({#$count})]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.enable"><![CDATA[Freischalten ({#$count})]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.disable"><![CDATA[Deaktivieren ({#$count})]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.delete"><![CDATA[Endgültig löschen ({#$count})]]></item>
+        <item name="wcf.clipboard.item.com.uz.poi.poi.restore"><![CDATA[Wiederherstellen ({#$count})]]></item>
+    </category>
+
+    <category name="wcf.like">
+        <item name="wcf.like.objectType.com.uz.poi.likeablePoi"><![CDATA[POI]]></item>
+        <item name="wcf.like.title.com.uz.poi.poiComment"><![CDATA[Hat mit {@$like->render()} auf den Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum POI <a href="{$comment->getLink()}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
+        <item name="wcf.like.title.com.uz.poi.poiComment.response"><![CDATA[Hat mit {@$like->render()} auf die Antwort {if $responseAuthor}von <a href="{link controller='User' object=$responseAuthor}{/link}">{$responseAuthor->username}</a>{else}eines Gasts{/if} zum Kommentar {if $commentAuthor}von <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a>{else}eines Gasts{/if} zum POI <a href="{$response->getLink()}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
+        <item name="wcf.like.title.com.uz.poi.likeablePoi"><![CDATA[Hat mit {@$like->render()} auf den POI <a href="{link application='poi' controller='Poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a> reagiert.]]></item>
+    </category>
+
+    <category name="wcf.moderation">
+        <item name="wcf.moderation.type.com.uz.poi.poi"><![CDATA[POI]]></item>
+        <item name="wcf.moderation.deletedContent.com.uz.poi.poi"><![CDATA[Gelöschte POIs]]></item>
+        <item name="wcf.moderation.deletedContent.objectType.com.uz.poi.poi"><![CDATA[POIs]]></item>
+    </category>
+
+    <category name="wcf.page">
+        <item name="wcf.page.onlineLocation.com.uz.poi.Poi"><![CDATA[POI <a href="{link controller='Poi' application='poi' object=$poi}{/link}" class="poiPoiLink" data-poi-id="{@$poi->poiID}">{$poi->getSubject()}</a>]]></item>
+        <item name="wcf.page.onlineLocation.com.uz.poi.CategoryPoiList"><![CDATA[POI-Kategorie <a href="{$category->getLink()}">{$category->getTitle()}</a>]]></item>
+        <item name="wcf.page.onlineLocation.com.uz.poi.UserPoiList"><![CDATA[<a href="{link controller='UserPoiList' application='poi' object=$user}{/link}">POIs von {$user->username}</a>]]></item>
+    </category>
+
+    <category name="wcf.search">
+        <item name="wcf.search.object.com.uz.poi.poi"><![CDATA[POI]]></item>
+        <item name="wcf.search.type.com.uz.poi.poi"><![CDATA[POIs]]></item>
+    </category>
+
+    <category name="wcf.tagging">
+        <item name="wcf.tagging.combinedTaggedObjects.com.uz.poi.poi"><![CDATA[POIs mit den Tags]]></item>
+        <item name="wcf.tagging.objectType.com.uz.poi.poi"><![CDATA[POIs]]></item>
+        <item name="wcf.tagging.taggedObjects.com.uz.poi.poi"><![CDATA[POIs mit dem Tag „{$tag->name}“]]></item>
+    </category>
+
+    <category name="wcf.user">
+        <item name="wcf.user.activityPoint.objectType.com.uz.poi.activityPointEvent.poi"><![CDATA[POIs]]></item>
+        <item name="wcf.user.sortField.poiPois"><![CDATA[POIs]]></item>
+    </category>
+
+    <category name="wcf.user.notification">
+        <item name="wcf.user.notification.com.uz.poi"><![CDATA[POI]]></item>
+        <item name="wcf.user.notification.com.uz.poi.likeablePoi.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} POI]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poi.notification.category"><![CDATA[Neuer POI in einer abonnierten Kategorie]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poi.notification.poi"><![CDATA[Ein abonnierter POI wurde geändert]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poiComment.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} Kommentar]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poiComment.notification.comment"><![CDATA[Neuer Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poiComment.response.notification.commentResponse"><![CDATA[Neue Antwort auf einen Kommentar von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if}]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poiComment.response.notification.commentResponseOwner"><![CDATA[Neue Antwort auf einen Kommentar zu {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} POI]]></item>
+        <item name="wcf.user.notification.com.uz.poi.poiComment.response.like.notification.like"><![CDATA[Reaktion auf {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}Ihre{/if} Antwort auf einen Kommentar]]></item>
+    </category>
+
+    <category name="wcf.user.objectWatch">
+        <item name="wcf.user.objectWatch.subscribe.com.uz.poi.category"><![CDATA[Kategorie abonnieren]]></item>
+        <item name="wcf.user.objectWatch.subscribe.com.uz.poi.poi"><![CDATA[POI abonnieren]]></item>
+        <item name="wcf.user.objectWatch.enableNotification.com.uz.poi.category"><![CDATA[Benachrichtigung über neue POIs in dieser Kategorie aktivieren]]></item>
+        <item name="wcf.user.objectWatch.enableNotification.com.uz.poi.poi"><![CDATA[Benachrichtigung über Änderungen dieses POIs aktivieren.]]></item>
+        <item name="wcf.user.objectWatch.unsubscribe.com.uz.poi.category"><![CDATA[Kategorie nicht abonnieren]]></item>
+        <item name="wcf.user.objectWatch.unsubscribe.com.uz.poi.poi"><![CDATA[POI nicht abonnieren]]></item>
+    </category>
+
+    <category name="wcf.user.recentActivity">
+        <item name="wcf.user.recentActivity.com.uz.poi.likeablePoi.recentActivityEvent"><![CDATA[Reaktion (POI)]]></item>
+        <item name="wcf.user.recentActivity.com.uz.poi.poiComment.response.recentActivityEvent"><![CDATA[Antwort (POI)]]></item>
+        <item name="wcf.user.recentActivity.com.uz.poi.poiComment.recentActivityEvent"><![CDATA[Kommentar (POI)]]></item>
+        <item name="wcf.user.recentActivity.com.uz.poi.recentActivityEvent.poi"><![CDATA[POI]]></item>
+    </category>
 </import>
 </language>

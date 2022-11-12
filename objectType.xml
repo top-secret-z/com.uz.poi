@@ -1,356 +1,356 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<!-- acl -->
-		<type>
-			<name>com.uz.poi.category</name>
-			<definitionname>com.woltlab.wcf.acl</definitionname>
-		</type>
-		
-		<!-- Activity Points -->
-		<type>
-			<name>com.uz.poi.activityPointEvent.poi</name>
-			<definitionname>com.woltlab.wcf.user.activityPointEvent</definitionname>
-			<points>20</points>
-		</type>
-		
-		<!-- Attachments -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.attachment.objectType</definitionname>
-			<classname>poi\system\attachment\PoiAttachmentObjectType</classname>
-		</type>
-		
-		<!-- box condition -->
-		<type>
-			<name>com.uz.poi.category</name>
-			<definitionname>com.uz.poi.box.poiList.condition</definitionname>
-			<classname>poi\system\condition\poi\PoiCategoryCondition</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.isFeatured</name>
-			<definitionname>com.uz.poi.box.poiList.condition</definitionname>
-			<classname>poi\system\condition\poi\PoiFeaturedCondition</classname>
-			<propertyName>isFeatured</propertyName>
-		</type>
-		
-		<!-- box controllers -->
-		<type>
-			<name>com.uz.poi.categories</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>poi\system\box\CategoriesBoxController</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.tagCloud</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>poi\system\box\TagCloudBoxController</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.mostActiveAuthors</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>poi\system\box\MostActiveAuthorsBoxController</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.poiList</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>poi\system\box\PoiListBoxController</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.commentList</name>
-			<definitionname>com.woltlab.wcf.boxController</definitionname>
-			<classname>poi\system\box\CommentListBoxController</classname>
-		</type>
-		
-		<!-- Category -->
-		<type>
-			<name>com.uz.poi.category</name>
-			<definitionname>com.woltlab.wcf.category</definitionname>
-			<classname>poi\system\category\PoiCategoryType</classname>
-			<defaultpermission>1</defaultpermission>
-		</type>
-		
-		<!-- Clipboard -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.clipboardItem</definitionname>
-			<listclassname>poi\data\poi\PoiList</listclassname>
-		</type>
-		
-		<!-- Comments -->
-		<type>
-			<name>com.uz.poi.poiComment</name>
-			<definitionname>com.woltlab.wcf.comment.commentableContent</definitionname>
-			<classname>poi\system\comment\manager\PoiCommentManager</classname>
-		</type>
-		
-		<!-- Conditions -->
-		<!-- ad conditions -->
-		<type>
-			<name>com.uz.poi.user.pois</name>
-			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- notice conditions -->
-		<type>
-			<name>com.uz.poi.user.pois</name>
-			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- user bulk processing conditions -->
-		<type>
-			<name>com.uz.poi.pois</name>
-			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- user content provider -->
-		<type>
-			<name>com.uz.poi.pois</name>
-			<definitionname>com.woltlab.wcf.content.userContentProvider</definitionname>
-			<classname>poi\system\user\content\provider\PoiUserContentProvider</classname>
-		</type>
-		
-		<!-- user group assignment conditions -->
-		<type>
-			<name>com.uz.poi.pois</name>
-			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- user search conditions -->
-		<type>
-			<name>com.uz.poi.pois</name>
-			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!--  trophy condition -->
-		<type>
-			<name>com.uz.poi.pois</name>
-			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>poiPois</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- edit history -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.edit.historySavingObject</definitionname>
-			<classname>poi\data\poi\HistorySavingPoiProvider</classname>
-		</type>
-		
-		<!-- embedded object handlers -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
-			<classname>poi\system\message\embedded\object\PoiMessageEmbeddedObjectHandler</classname>
-		</type>
-		
-		<!-- Infraction -->
-		<type>
-			<name>com.uz.poi.warnablePoi</name>
-			<definitionname>com.woltlab.wcf.infraction.warnable</definitionname>
-			<classname>poi\data\poi\WarnablePoiProvider</classname>
-		</type>
-		
-		<!-- Like -->
-		<type>
-			<name>com.uz.poi.likeablePoi</name>
-			<definitionname>com.woltlab.wcf.like.likeableObject</definitionname>
-			<classname>poi\data\poi\LikeablePoiProvider</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.likeablePoi.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-		</type>
-		<type>
-			<name>com.uz.poi.poiComment.like.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-			<supportsReactions>1</supportsReactions>
-		</type>
-		<type>
-			<name>com.uz.poi.poiComment.response.like.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-			<supportsReactions>1</supportsReactions>
-		</type>
-		
-		<!-- message -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.message</definitionname>
-		</type>
-		
-		<!-- moderation -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.moderation.report</definitionname>
-			<classname>poi\system\moderation\queue\report\PoiModerationQueueReportHandler</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.moderation.activation</definitionname>
-			<classname>poi\system\moderation\queue\activation\PoiModerationQueueActivationHandler</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.deletedContent</definitionname>
-			<classname>poi\system\moderation\DeletedPoiProvider</classname>
-		</type>
-		
-		<!-- Modification Log -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.modifiableContent</definitionname>
-			<classname>poi\system\log\modification\PoiModificationLogHandler</classname>
-		</type>
-		
-		<!-- Notifications -->
-		<type>
-			<name>com.uz.poi.poiComment.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>poi\system\user\notification\object\type\PoiCommentUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-		</type>
-		<type>
-			<name>com.uz.poi.poiComment.response.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>poi\system\user\notification\object\type\PoiCommentResponseUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-		</type>
-		<type>
-			<name>com.uz.poi.poi.notification</name>
-			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
-			<classname>poi\system\user\notification\object\type\PoiUserNotificationObjectType</classname>
-			<category>com.uz.poi</category>
-		</type>
-		
-		<!-- Object Watch -->
-		<type>
-			<name>com.uz.poi.category</name>
-			<definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
-			<classname>poi\system\user\object\watch\PoiCategoryUserObjectWatch</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
-			<classname>poi\system\user\object\watch\PoiUserObjectWatch</classname>
-		</type>
-		
-		<!-- rebuild data workers -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.rebuildData</definitionname>
-			<classname>poi\system\worker\PoiRebuildDataWorker</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.visit</name>
-			<definitionname>com.woltlab.wcf.rebuildData</definitionname>
-			<classname>poi\system\worker\PoiVisitRebuildDataWorker</classname>
-		</type>
-		
-		<!-- Recent Activity -->
-		<type>
-			<name>com.uz.poi.recentActivityEvent.poi</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>poi\system\user\activity\event\PoiUserActivityEvent</classname>
-		</type>
-		<type>
-			<name>com.uz.poi.likeablePoi.recentActivityEvent</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>poi\system\user\activity\event\LikeablePoiUserActivityEvent</classname>
-			<supportsReactions>1</supportsReactions>
-		</type>
-		<type>
-			<name>com.uz.poi.poiComment.recentActivityEvent</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>poi\system\user\activity\event\PoiCommentUserActivityEvent</classname>
-		</type>
-		
-		<type>
-			<name>com.uz.poi.poiComment.response.recentActivityEvent</name>
-			<definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
-			<classname>poi\system\user\activity\event\PoiCommentResponseUserActivityEvent</classname>
-		</type>
-		
-		<!-- stat handlers -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
-			<classname>poi\system\stat\PoiStatDailyHandler</classname>
-			<categoryname>com.uz.poi</categoryname>
-		</type>
-		<type>
-			<name>com.uz.poi.poiComment</name>
-			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
-			<classname>poi\system\stat\CommentStatDailyHandler</classname>
-			<categoryname>com.uz.poi</categoryname>
-		</type>
-		
-		<!-- Search -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.searchableObjectType</definitionname>
-			<classname>poi\system\search\PoiSearch</classname>
-			<searchindex>poi1_poi_search_index</searchindex>
-		</type>
-		
-		<!-- sitemap -->
-		<type>
-			<name>com.uz.poi.sitemap.object.poi</name>
-			<definitionname>com.woltlab.wcf.sitemap.object</definitionname>
-			<classname>poi\system\sitemap\object\PoiSitemapObject</classname>
-			<priority>0.5</priority>
-			<changeFreq>weekly</changeFreq>
-			<rebuildTime>86400</rebuildTime>
-		</type>
-		<type>
-			<name>com.uz.poi.sitemap.object.category</name>
-			<definitionname>com.woltlab.wcf.sitemap.object</definitionname>
-			<classname>poi\system\sitemap\object\CategorySitemapObject</classname>
-			<priority>0.5</priority>
-			<changeFreq>weekly</changeFreq>
-			<rebuildTime>2592000</rebuildTime>
-		</type>
-		
-		<!-- Tagging -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.tagging.taggableObject</definitionname>
-			<classname>poi\system\tagging\TaggablePoi</classname>
-			<permissions>user.poi.canViewPoi</permissions>
-		</type>
-		
-		<!-- Visit Tracker -->
-		<type>
-			<name>com.uz.poi.poi</name>
-			<definitionname>com.woltlab.wcf.visitTracker.objectType</definitionname>
-		</type>
-	</import>
+    <import>
+        <!-- acl -->
+        <type>
+            <name>com.uz.poi.category</name>
+            <definitionname>com.woltlab.wcf.acl</definitionname>
+        </type>
+
+        <!-- Activity Points -->
+        <type>
+            <name>com.uz.poi.activityPointEvent.poi</name>
+            <definitionname>com.woltlab.wcf.user.activityPointEvent</definitionname>
+            <points>20</points>
+        </type>
+
+        <!-- Attachments -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.attachment.objectType</definitionname>
+            <classname>poi\system\attachment\PoiAttachmentObjectType</classname>
+        </type>
+
+        <!-- box condition -->
+        <type>
+            <name>com.uz.poi.category</name>
+            <definitionname>com.uz.poi.box.poiList.condition</definitionname>
+            <classname>poi\system\condition\poi\PoiCategoryCondition</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.isFeatured</name>
+            <definitionname>com.uz.poi.box.poiList.condition</definitionname>
+            <classname>poi\system\condition\poi\PoiFeaturedCondition</classname>
+            <propertyName>isFeatured</propertyName>
+        </type>
+
+        <!-- box controllers -->
+        <type>
+            <name>com.uz.poi.categories</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>poi\system\box\CategoriesBoxController</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.tagCloud</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>poi\system\box\TagCloudBoxController</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.mostActiveAuthors</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>poi\system\box\MostActiveAuthorsBoxController</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.poiList</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>poi\system\box\PoiListBoxController</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.commentList</name>
+            <definitionname>com.woltlab.wcf.boxController</definitionname>
+            <classname>poi\system\box\CommentListBoxController</classname>
+        </type>
+
+        <!-- Category -->
+        <type>
+            <name>com.uz.poi.category</name>
+            <definitionname>com.woltlab.wcf.category</definitionname>
+            <classname>poi\system\category\PoiCategoryType</classname>
+            <defaultpermission>1</defaultpermission>
+        </type>
+
+        <!-- Clipboard -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.clipboardItem</definitionname>
+            <listclassname>poi\data\poi\PoiList</listclassname>
+        </type>
+
+        <!-- Comments -->
+        <type>
+            <name>com.uz.poi.poiComment</name>
+            <definitionname>com.woltlab.wcf.comment.commentableContent</definitionname>
+            <classname>poi\system\comment\manager\PoiCommentManager</classname>
+        </type>
+
+        <!-- Conditions -->
+        <!-- ad conditions -->
+        <type>
+            <name>com.uz.poi.user.pois</name>
+            <definitionname>com.woltlab.wcf.condition.ad</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- notice conditions -->
+        <type>
+            <name>com.uz.poi.user.pois</name>
+            <definitionname>com.woltlab.wcf.condition.notice</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- user bulk processing conditions -->
+        <type>
+            <name>com.uz.poi.pois</name>
+            <definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- user content provider -->
+        <type>
+            <name>com.uz.poi.pois</name>
+            <definitionname>com.woltlab.wcf.content.userContentProvider</definitionname>
+            <classname>poi\system\user\content\provider\PoiUserContentProvider</classname>
+        </type>
+
+        <!-- user group assignment conditions -->
+        <type>
+            <name>com.uz.poi.pois</name>
+            <definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- user search conditions -->
+        <type>
+            <name>com.uz.poi.pois</name>
+            <definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!--  trophy condition -->
+        <type>
+            <name>com.uz.poi.pois</name>
+            <definitionname>com.woltlab.wcf.condition.trophy</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>poiPois</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- edit history -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.edit.historySavingObject</definitionname>
+            <classname>poi\data\poi\HistorySavingPoiProvider</classname>
+        </type>
+
+        <!-- embedded object handlers -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.message.embeddedObject</definitionname>
+            <classname>poi\system\message\embedded\object\PoiMessageEmbeddedObjectHandler</classname>
+        </type>
+
+        <!-- Infraction -->
+        <type>
+            <name>com.uz.poi.warnablePoi</name>
+            <definitionname>com.woltlab.wcf.infraction.warnable</definitionname>
+            <classname>poi\data\poi\WarnablePoiProvider</classname>
+        </type>
+
+        <!-- Like -->
+        <type>
+            <name>com.uz.poi.likeablePoi</name>
+            <definitionname>com.woltlab.wcf.like.likeableObject</definitionname>
+            <classname>poi\data\poi\LikeablePoiProvider</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.likeablePoi.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+        </type>
+        <type>
+            <name>com.uz.poi.poiComment.like.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+            <supportsReactions>1</supportsReactions>
+        </type>
+        <type>
+            <name>com.uz.poi.poiComment.response.like.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>wcf\system\user\notification\object\type\LikeUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+            <supportsReactions>1</supportsReactions>
+        </type>
+
+        <!-- message -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.message</definitionname>
+        </type>
+
+        <!-- moderation -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.moderation.report</definitionname>
+            <classname>poi\system\moderation\queue\report\PoiModerationQueueReportHandler</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.moderation.activation</definitionname>
+            <classname>poi\system\moderation\queue\activation\PoiModerationQueueActivationHandler</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.deletedContent</definitionname>
+            <classname>poi\system\moderation\DeletedPoiProvider</classname>
+        </type>
+
+        <!-- Modification Log -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.modifiableContent</definitionname>
+            <classname>poi\system\log\modification\PoiModificationLogHandler</classname>
+        </type>
+
+        <!-- Notifications -->
+        <type>
+            <name>com.uz.poi.poiComment.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>poi\system\user\notification\object\type\PoiCommentUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+        </type>
+        <type>
+            <name>com.uz.poi.poiComment.response.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>poi\system\user\notification\object\type\PoiCommentResponseUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+        </type>
+        <type>
+            <name>com.uz.poi.poi.notification</name>
+            <definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+            <classname>poi\system\user\notification\object\type\PoiUserNotificationObjectType</classname>
+            <category>com.uz.poi</category>
+        </type>
+
+        <!-- Object Watch -->
+        <type>
+            <name>com.uz.poi.category</name>
+            <definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
+            <classname>poi\system\user\object\watch\PoiCategoryUserObjectWatch</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.user.objectWatch</definitionname>
+            <classname>poi\system\user\object\watch\PoiUserObjectWatch</classname>
+        </type>
+
+        <!-- rebuild data workers -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.rebuildData</definitionname>
+            <classname>poi\system\worker\PoiRebuildDataWorker</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.visit</name>
+            <definitionname>com.woltlab.wcf.rebuildData</definitionname>
+            <classname>poi\system\worker\PoiVisitRebuildDataWorker</classname>
+        </type>
+
+        <!-- Recent Activity -->
+        <type>
+            <name>com.uz.poi.recentActivityEvent.poi</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>poi\system\user\activity\event\PoiUserActivityEvent</classname>
+        </type>
+        <type>
+            <name>com.uz.poi.likeablePoi.recentActivityEvent</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>poi\system\user\activity\event\LikeablePoiUserActivityEvent</classname>
+            <supportsReactions>1</supportsReactions>
+        </type>
+        <type>
+            <name>com.uz.poi.poiComment.recentActivityEvent</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>poi\system\user\activity\event\PoiCommentUserActivityEvent</classname>
+        </type>
+
+        <type>
+            <name>com.uz.poi.poiComment.response.recentActivityEvent</name>
+            <definitionname>com.woltlab.wcf.user.recentActivityEvent</definitionname>
+            <classname>poi\system\user\activity\event\PoiCommentResponseUserActivityEvent</classname>
+        </type>
+
+        <!-- stat handlers -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+            <classname>poi\system\stat\PoiStatDailyHandler</classname>
+            <categoryname>com.uz.poi</categoryname>
+        </type>
+        <type>
+            <name>com.uz.poi.poiComment</name>
+            <definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+            <classname>poi\system\stat\CommentStatDailyHandler</classname>
+            <categoryname>com.uz.poi</categoryname>
+        </type>
+
+        <!-- Search -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.searchableObjectType</definitionname>
+            <classname>poi\system\search\PoiSearch</classname>
+            <searchindex>poi1_poi_search_index</searchindex>
+        </type>
+
+        <!-- sitemap -->
+        <type>
+            <name>com.uz.poi.sitemap.object.poi</name>
+            <definitionname>com.woltlab.wcf.sitemap.object</definitionname>
+            <classname>poi\system\sitemap\object\PoiSitemapObject</classname>
+            <priority>0.5</priority>
+            <changeFreq>weekly</changeFreq>
+            <rebuildTime>86400</rebuildTime>
+        </type>
+        <type>
+            <name>com.uz.poi.sitemap.object.category</name>
+            <definitionname>com.woltlab.wcf.sitemap.object</definitionname>
+            <classname>poi\system\sitemap\object\CategorySitemapObject</classname>
+            <priority>0.5</priority>
+            <changeFreq>weekly</changeFreq>
+            <rebuildTime>2592000</rebuildTime>
+        </type>
+
+        <!-- Tagging -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.tagging.taggableObject</definitionname>
+            <classname>poi\system\tagging\TaggablePoi</classname>
+            <permissions>user.poi.canViewPoi</permissions>
+        </type>
+
+        <!-- Visit Tracker -->
+        <type>
+            <name>com.uz.poi.poi</name>
+            <definitionname>com.woltlab.wcf.visitTracker.objectType</definitionname>
+        </type>
+    </import>
 </data>

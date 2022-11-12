@@ -1,250 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userGroupOption.xsd">
-	<import>
-		<categories>
-			<category name="user.poi">
-				<parent>user</parent>
-			</category>
-			
-			<category name="mod.poi">
-				<parent>mod</parent>
-			</category>
-			
-			<category name="admin.poi">
-				<parent>admin.application</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<option name="user.poi.canViewPoi">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="user.poi.canAddPoi">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canAddPoiWithoutModeration">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canEditPoi">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canDeletePoi">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canDisableCommentFunction">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canDownloadPois">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<userdefaultvalue>1</userdefaultvalue>
-			</option>
-			<option name="user.poi.canImportPois">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<userdefaultvalue>0</userdefaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<admindefaultvalue>1</admindefaultvalue>
-			</option>
-			<option name="user.poi.maxTextLength">
-				<categoryname>user.poi</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>50000</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<option name="user.poi.canVisitPoi">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<option name="user.poi.canSeeVisit">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			
-			<option name="user.poi.coverPhoto.maxSize">
-				<categoryname>user.poi</categoryname>
-				<optiontype>fileSize</optiontype>
-				<defaultvalue>500000</defaultvalue>
-				<minvalue>100000</minvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<!-- attachments -->
-			<option name="user.poi.canDownloadAttachment">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			<option name="user.poi.canUploadAttachment">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.maxAttachmentSize">
-				<categoryname>user.poi</categoryname>
-				<optiontype>fileSize</optiontype>
-				<defaultvalue>1000000</defaultvalue>
-				<options>module_attachment</options>
-				<minvalue>10000</minvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.allowedAttachmentExtensions">
-				<categoryname>user.poi</categoryname>
-				<optiontype>textarea</optiontype>
-				<defaultvalue>gif
+    <import>
+        <categories>
+            <category name="user.poi">
+                <parent>user</parent>
+            </category>
+
+            <category name="mod.poi">
+                <parent>mod</parent>
+            </category>
+
+            <category name="admin.poi">
+                <parent>admin.application</parent>
+            </category>
+        </categories>
+
+        <options>
+            <option name="user.poi.canViewPoi">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="user.poi.canAddPoi">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canAddPoiWithoutModeration">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canEditPoi">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canDeletePoi">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canDisableCommentFunction">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canDownloadPois">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <userdefaultvalue>1</userdefaultvalue>
+            </option>
+            <option name="user.poi.canImportPois">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <userdefaultvalue>0</userdefaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <admindefaultvalue>1</admindefaultvalue>
+            </option>
+            <option name="user.poi.maxTextLength">
+                <categoryname>user.poi</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>50000</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <option name="user.poi.canVisitPoi">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <option name="user.poi.canSeeVisit">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+
+            <option name="user.poi.coverPhoto.maxSize">
+                <categoryname>user.poi</categoryname>
+                <optiontype>fileSize</optiontype>
+                <defaultvalue>500000</defaultvalue>
+                <minvalue>100000</minvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <!-- attachments -->
+            <option name="user.poi.canDownloadAttachment">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+            <option name="user.poi.canUploadAttachment">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.maxAttachmentSize">
+                <categoryname>user.poi</categoryname>
+                <optiontype>fileSize</optiontype>
+                <defaultvalue>1000000</defaultvalue>
+                <options>module_attachment</options>
+                <minvalue>10000</minvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.allowedAttachmentExtensions">
+                <categoryname>user.poi</categoryname>
+                <optiontype>textarea</optiontype>
+                <defaultvalue>gif
 jpg
 jpeg
 png</defaultvalue>
-				<options>module_attachment</options>
-				<wildcard>*</wildcard>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.maxAttachmentCount">
-				<categoryname>user.poi</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>5</defaultvalue>
-				<options>module_attachment</options>
-				<minvalue>1</minvalue>
-				<maxvalue>100</maxvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<!-- comments -->
-			<option name="user.poi.canAddComment">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<userdefaultvalue>1</userdefaultvalue>
-				<enableoptions>user.poi.canAddCommentWithoutModeration</enableoptions>
-				
-			</option>
-			<option name="user.poi.canAddCommentWithoutModeration">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<excludedInTinyBuild>1</excludedInTinyBuild>
-			</option>
-			<option name="user.poi.canEditComment">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="user.poi.canDeleteComment">
-				<categoryname>user.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<!-- moderation -->
-			<option name="mod.poi.canEditPoi">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canDeletePoi">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canModeratePoi">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canViewDeletedPoi">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canRestorePoi">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canDeletePoiCompletely">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<option name="mod.poi.canEditComment">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canDeleteComment">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="mod.poi.canModerateComment">
-				<categoryname>mod.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<moddefaultvalue>1</moddefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			
-			<!-- admin -->
-			<option name="admin.poi.canManageCategory">
-				<categoryname>admin.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<admindefaultvalue>1</admindefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-			<option name="admin.poi.canManageOption">
-				<categoryname>admin.poi</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<admindefaultvalue>1</admindefaultvalue>
-				<usersonly>1</usersonly>
-			</option>
-		</options>
-	</import>
+                <options>module_attachment</options>
+                <wildcard>*</wildcard>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.maxAttachmentCount">
+                <categoryname>user.poi</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>5</defaultvalue>
+                <options>module_attachment</options>
+                <minvalue>1</minvalue>
+                <maxvalue>100</maxvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <!-- comments -->
+            <option name="user.poi.canAddComment">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <userdefaultvalue>1</userdefaultvalue>
+                <enableoptions>user.poi.canAddCommentWithoutModeration</enableoptions>
+
+            </option>
+            <option name="user.poi.canAddCommentWithoutModeration">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <excludedInTinyBuild>1</excludedInTinyBuild>
+            </option>
+            <option name="user.poi.canEditComment">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="user.poi.canDeleteComment">
+                <categoryname>user.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <!-- moderation -->
+            <option name="mod.poi.canEditPoi">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canDeletePoi">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canModeratePoi">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canViewDeletedPoi">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canRestorePoi">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canDeletePoiCompletely">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <option name="mod.poi.canEditComment">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canDeleteComment">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="mod.poi.canModerateComment">
+                <categoryname>mod.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <moddefaultvalue>1</moddefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+
+            <!-- admin -->
+            <option name="admin.poi.canManageCategory">
+                <categoryname>admin.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <admindefaultvalue>1</admindefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+            <option name="admin.poi.canManageOption">
+                <categoryname>admin.poi</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <admindefaultvalue>1</admindefaultvalue>
+                <usersonly>1</usersonly>
+            </option>
+        </options>
+    </import>
 </data>
